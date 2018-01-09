@@ -21,8 +21,15 @@ function attachStoreList (storeList) {
       `<li><a href="${store.url}" target="_blank">${store.title}</a></li>`
   )
 
-  const parentNode = document.getElementById('add-to-cart-button').parentNode
-    .parentNode.parentNode
+  let startNode = document.getElementById('add-to-cart-button')
+
+  if (!startNode) {
+    startNode = document.getElementById(
+      'buybox-see-all-buying-choices-announce'
+    )
+  }
+
+  const parentNode = startNode.parentNode.parentNode.parentNode
   const divNode = document.createElement('div')
   divNode.id = 'uak-button'
   divNode.innerHTML = `

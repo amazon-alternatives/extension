@@ -5,7 +5,7 @@
 
 #uak-stores-modal {
   display: none;
-  z-index: 10;
+  z-index: 100;
   top: 31px; left: 0; right: 0;
   position: absolute;
   background: #fff;
