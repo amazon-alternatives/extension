@@ -1,0 +1,34 @@
+#rbbContainer .rbbSection {overflow: visible}
+
+#uak-button {
+  position: relative;
+}
+
+#uak-button:hover #uak-stores-modal {
+  display: block
+}
+
+#uak-stores-modal {
+  display: none;
+  z-index: 10;
+  top: 31px; left: 0; right: 0;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.13);
+  padding: 8px 0;
+}
+#uak-stores-modal ul { margin: 0}
+#uak-stores-modal li { list-style: none }
+#uak-stores-modal a {
+  display: block;
+  white-space: nowrap;
+  padding: 4px 12px;
+  font-size: 14px;
+  color: #111;
+  text-decoration: none;
+}
+#uak-stores-modal a:hover {
+  background: #f3f3f3;
+}
