@@ -7,35 +7,20 @@ const isbnNode = nodes.filter(node => node.innerText.includes('ISBN-13'))[0]
 
 if (isbnNode) {
   const isbn = isbnNode.innerText.split(': ')[1].replace('-', '').trim()
-  const url = `http://www.placedeslibraires.fr/dlivre.php?gencod=${isbn}&rid=`
+  const storeList = getStoreList(isbn)
 
-  // attachStoreButton(url)
+  attachStoreList(storeList)
 
-  attachStoreList(isbn)
-
-  browser.runtime.sendMessage({ url: url })
+  browser.runtime.sendMessage({ url: storeList[0].url })
 }
 
-// function attachStoreButton (url) {
-//   const parentNode = document.getElementById('add-to-cart-button').parentNode
-//     .parentNode.parentNode
+function attachStoreList (storeList) {
+  const buttonTitle = getButtonTitle()
+  const storeLinks = storeList.map(
+    store =>
+      `<li><a href="${store.url}" target="_blank">${store.title}</a></li>`
+  )
 
-//   const storeNode = document.createElement('a')
-//   storeNode.target = '_blank'
-//   storeNode.href = url
-//   storeNode.innerHTML = `
-//     <span class="a-button a-spacing-small a-button-primary a-button-icon">
-//       <span class="a-button-inner">
-//       <i class="a-icon a-icon-1click"></i>
-//         <span id="submit.add-to-cart-announce" class="a-button-text" aria-hidden="true">Acheter en librairie</span>
-//       </span>
-//     </span>
-//   `
-
-//   parentNode.insertBefore(storeNode, null)
-// }
-
-function attachStoreList (isbn) {
   const parentNode = document.getElementById('add-to-cart-button').parentNode
     .parentNode.parentNode
   const divNode = document.createElement('div')
@@ -44,18 +29,81 @@ function attachStoreList (isbn) {
     <span class="a-button a-spacing-small a-button-primary a-button-icon">
       <span class="a-button-inner">
       <i class="a-icon a-icon-1click"></i>
-        <span id="submit.add-to-cart-announce" class="a-button-text" aria-hidden="true">Acheter en librairie</span>
+        <span id="submit.add-to-cart-announce" class="a-button-text" aria-hidden="true">${buttonTitle}</span>
       </span>
     </span>
 
     <div id="uak-stores-modal">
-      <ul>
-        <li><a href="http://www.placedeslibraires.fr/dlivre.php?gencod=${isbn}&rid=" target="_blank">placedeslibraires.fr</a></li>
-        <li><a href="https://www.lalibrairie.com/livres/xxx_0-0000000_${isbn}.html" target="_blank">lalibrairie.com</a></li>
-        <li><a href="https://www.leslibraires.fr/livre/${isbn}" target="_blank">leslibraires.fr</a></li>
-      </ul>
+      <ul>${storeLinks.join(' ')}</ul>
     </div>
   `
 
   parentNode.insertBefore(divNode, null)
+}
+
+function getStoreList (isbn) {
+  const host = window.location.hostname
+  const tld = host.split('.').pop()
+  const stores = getStores(isbn)
+
+  return stores[tld] ? stores[tld] : stores['fr']
+}
+
+function getButtonTitle () {
+  const host = window.location.hostname
+
+  switch (host) {
+    case 'www.amazon.com':
+    case 'www.amazon.ca':
+    case 'www.amazon.co.uk':
+    case 'www.amazon.in':
+      return 'Buy in a bookstore'
+    case 'www.amazon.com.mx':
+    case 'www.amazon.es':
+      return 'Compra en una librería'
+    case 'www.amazon.co.jp':
+      return '書店で購入する'
+    case 'www.amazon.it':
+      return 'Acquista in una libreria'
+    case 'www.amazon.cn':
+      return '在书店买东西'
+    case 'www.amazon.com.br':
+      return 'Comprar em uma livraria'
+    case 'www.amazon.de':
+    case 'www.amazon.au':
+      return 'Kaufen in einer Buchhandlung'
+    default:
+      return 'Acheter en librairie'
+  }
+}
+
+function getStores (isbn) {
+  return {
+    ca: [
+      {
+        title: 'leslibraires.ca',
+        url: `http://www.leslibraires.ca/recherche/?t=&a=&e=&c=&i=${isbn}&f=&ip=`
+      }
+    ],
+    uk: [
+      {
+        title: 'hive.co.uk',
+        url: `http://www.hive.co.uk/Search/Keyword?keyword=${isbn}`
+      }
+    ],
+    fr: [
+      {
+        title: 'placedeslibraires.fr',
+        url: `http://www.placedeslibraires.fr/dlivre.php?gencod=${isbn}&rid=`
+      },
+      {
+        title: 'lalibrairie.com',
+        url: `https://www.lalibrairie.com/livres/xxx_0-0000000_${isbn}.html`
+      },
+      {
+        title: 'leslibraires.fr',
+        url: `https://www.leslibraires.fr/livre/${isbn}`
+      }
+    ]
+  }
 }
