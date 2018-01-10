@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "lint": "standard --verbose 'src/**/*.js'",
+    "build": "yarn lint && webpack --config webpack.config.js",
+    "zip": "yarn build && cd addon && bestzip addon.zip manifest.json app.js background.js styles.css assets/"
+  },
+  "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "bestzip": "^1.1.4",
+    "standard": "^10.0.3",
+    "webpack": "^3.10.0"
+  },
+  "standard": {
+    "globals": [
+      "browser"
+    ]
+  }
+}
