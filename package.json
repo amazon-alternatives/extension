@@ -6,7 +6,7 @@
   },
   "devDependencies": {
     "babel-minify-webpack-plugin": "^0.2.0",
-    "bestzip": "^1.1.4",
+    "bestzip": "^2.1.1",
     "standard": "^10.0.3",
     "webpack": "^3.10.0"
   },
