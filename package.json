@@ -8,7 +8,7 @@
     "babel-minify-webpack-plugin": "^0.3.1",
     "bestzip": "^2.1.1",
     "standard": "^12.0.1",
-    "webpack": "^4.20.2",
+    "webpack": "^4.23.1",
     "webpack-cli": "^3.1.2"
   },
   "standard": {
