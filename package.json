@@ -2,11 +2,13 @@
   "scripts": {
     "lint": "standard --verbose 'src/**/*.js'",
     "build": "yarn lint && webpack --config webpack.config.js --mode production",
-    "zip": "yarn build && cd addon && bestzip addon.zip manifest.json app.js background.js styles.css assets/"
+    "zip": "yarn build && cd addon && bestzip addon.zip manifest.json app.js background.js styles.css assets/",
+    "publish:chrome": "webstore publish --extension-id ckgenapkpilkbkkeijepjejgilglnmof"
   },
   "devDependencies": {
     "babel-minify-webpack-plugin": "^0.3.1",
     "bestzip": "^2.1.1",
+    "chrome-webstore-upload-cli": "^1.2.0",
     "standard": "^12.0.1",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2"
