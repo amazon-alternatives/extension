@@ -3,7 +3,7 @@
     "lint": "standard --verbose 'src/**/*.js'",
     "build": "yarn lint && webpack --config webpack.config.js --mode production",
     "zip": "yarn build && cd addon && bestzip addon.zip manifest.json app.js background.js styles.css assets/",
-    "publish:chrome": "webstore publish --extension-id ckgenapkpilkbkkeijepjejgilglnmof"
+    "publish:chrome": "webstore publish --extension-id ckgenapkpilkbkkeijepjejgilglnmof --source addon/addon.zip"
   },
   "devDependencies": {
     "babel-minify-webpack-plugin": "^0.3.1",
