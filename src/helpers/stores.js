@@ -20,6 +20,16 @@ function getStores (isbn) {
         url: `http://www.hive.co.uk/Search/Keyword?keyword=${isbn}`
       }
     ],
+    de: [
+      {
+        title: 'genialokal.de',
+        url: `https://www.genialokal.de/Suche/?q=${isbn}`
+      },
+      {
+        title: 'buchhandel.de',
+        url: `https://www.buchhandel.de/suche/ergebnisse?query=${isbn}`
+      }
+    ],
     fr: [
       {
         title: 'placedeslibraires.fr',
