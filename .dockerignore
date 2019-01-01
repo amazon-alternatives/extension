@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+.dockerignore
+.travis.yml
+Dockerfile
+README.MD

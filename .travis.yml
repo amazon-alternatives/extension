@@ -1,0 +1,16 @@
+sudo: required
+
+services:
+  - docker
+
+before_script:
+  - docker build -t adriantombu/universal-amazon-killer:dev .
+
+script:
+  - docker run adriantombu/universal-amazon-killer:dev yarn lint
+
+deploy:
+  provider: script
+  script: docker run -e CHROME_CLIENT_ID -e CHROME_CLIENT_SECRET -e CHROME_REFRESH_TOKEN -e FIREFOX_API_KEY -e FIREFOX_API_SECRET adriantombu/universal-amazon-killer:dev
+  on:
+    branch: master
