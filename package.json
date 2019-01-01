@@ -3,7 +3,7 @@
     "lint": "standard --verbose 'src/**/*.js'",
     "watch": "webpack --config webpack.config.js --mode development --watch",
     "build": "yarn lint && webpack --config webpack.config.js --mode production",
-    "publish:chrome": "webstore upload --auto-publish --extension-id ckgenapkpilkbkkeijepjejgilglnmof --source ./addon",
+    "publish:chrome": "webstore upload --auto-publish --extension-id ckgenapkpilkbkkeijepjejgilglnmof --source ./addon --client-id $CHROME_CLIENT_ID --client-secret $CHROME_CLIENT_SECRET --refresh-token $CHROME_REFRESH_TOKEN",
     "publish:firefox": "cd addon && web-ext sign --api-key $FIREFOX_API_KEY --api-secret $FIREFOX_API_SECRET || exit 0",
     "publish:all": "yarn build && yarn publish:chrome && yarn publish:firefox",
     "docker:build": "docker build -t adriantombu/universal-amazon-killer:dev .",
