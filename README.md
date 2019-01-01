@@ -23,7 +23,7 @@ The extension finds the ISBN of the book in the page, and launches a search in t
 
 * Install the packages with `yarn install`
 * Modify the files in the `src` folder
-* When everything's done, you can run `yarn zip` to build the `app.js` and `background.js` scripts and bundle all the files for release
+* When everything's done, you can send a PR \o/
 
 ### Project origin
 This project is an enhanced rewrite of [Amazon Killer](https://github.com/elliotlepers/Amazon-Killer) from Elliot Lepers
