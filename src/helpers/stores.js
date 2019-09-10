@@ -3,7 +3,7 @@ export default function getStoreList (isbn) {
   const tld = host.split('.').pop()
   const stores = getStores(isbn)
 
-  return stores[tld] ? stores[tld] : stores['fr']
+  return stores[tld] ? stores[tld] : stores.fr
 }
 
 function getStores (isbn) {
