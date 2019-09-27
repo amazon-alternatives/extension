@@ -28,7 +28,11 @@ function getStores (isbn) {
       {
         title: 'buchhandel.de',
         url: `https://www.buchhandel.de/suche/ergebnisse?query=${isbn}`
-      }
+      },
+      {
+        title: 'seeseiten.at',
+        url: `https://seeseiten.buchkatalog.at/webapp/wcs/stores/servlet/KNVAdvancedSearchResultView?storeId=203705&articleno=${isbn}`
+      }	  
     ],
     fr: [
       {
