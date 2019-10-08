@@ -1,2 +1,4 @@
 node_modules/
 addon.zip
+addon/app.js
+addon/background.js

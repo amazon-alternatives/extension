@@ -5,7 +5,7 @@
     "build": "webpack --config webpack.config.js --mode production",
     "publish:chrome": "webstore upload --auto-publish --extension-id hcjifkchlbbpcpmdbimipoidnljabnai --source ./addon --client-id $CHROME_CLIENT_ID --client-secret $CHROME_CLIENT_SECRET --refresh-token $CHROME_REFRESH_TOKEN",
     "publish:firefox": "cd addon && web-ext sign --api-key $FIREFOX_API_KEY --api-secret $FIREFOX_API_SECRET || exit 0",
-    "publish:all": "yarn build && yarn publish:chrome && yarn publish:firefox"
+    "publish:all": "yarn publish:chrome && yarn publish:firefox"
   },
   "devDependencies": {
     "babel-minify-webpack-plugin": "^0.3.1",
