@@ -1,4 +1,4 @@
-export default function getButtonTitle () {
+export default function getButtonTitle() {
   const host = window.location.hostname
 
   switch (host) {
