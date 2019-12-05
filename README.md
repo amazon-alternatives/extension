@@ -15,14 +15,25 @@ The extension finds the ISBN of the book in the page, and launches a search in t
 * Universal compatibility for all major browsers (except Safari) in a single codebase : Chrome, Firefox, Edge, Opera, Brave and Vivaldi
 
 ### Where to install it
-* Chrome : https://chrome.google.com/webstore/detail/universal-amazon-killer/ckgenapkpilkbkkeijepjejgilglnmof
+* Chrome : https://chrome.google.com/webstore/detail/universal-amazon-killer/hcjifkchlbbpcpmdbimipoidnljabnai
 * Firefox : https://addons.mozilla.org/addon/universal-amazon-killer/
 
 ### How to contribute
 
 * Install the packages with `yarn install`
 * Modify the files in the `src` folder
+* You can build the extension with `yarn build` to test your modifications in the browser
 * When everything's done, you can send a PR \o/
 
-### Project origin
-This project is an enhanced rewrite of [Amazon Killer](https://github.com/elliotlepers/Amazon-Killer) from Elliot Lepers
+### How to build the extension
+
+#### Requirements
+* **Operating system:** OSX, Linux, Windows
+* **Environment requirements:** [Node 10+](https://nodejs.org/en/)
+
+#### Steps
+* Clone or download the repository from https://github.com/adriantombu/universal-amazon-killer
+* Install the packages with `yarn install` or `npm install`
+* Run `yarn build` or `npm build`
+* The files inside the `src` folder will be builded to the `addon` folder with Weback (you can find the configuration used in the `webpack.config.js` file)
+* The `addon` folder represents the files that are published to the store through the Continuous Deployment tool
