@@ -1,5 +1,5 @@
 import { getStores, Store, Website } from './helpers/stores'
-import { getButtonTitle } from './helpers/i18n'
+import { getButtonTitle, getConfirmText } from './helpers/i18n'
 
 window['browser'] = (function() {
   return (window as any).msBrowser || (window as any).browser || (window as any).chrome
@@ -62,6 +62,7 @@ function main() {
 
 function attachStores(stores: Website[], isBook: boolean) {
   const buttonTitle = getButtonTitle(isBook)
+  const confirmText = getConfirmText()
   const storeLinks = stores.map(store => `<li><a href="${store.url}" target="_blank">${store.title}</a></li>`)
 
   let startNode = document.getElementById('add-to-cart-button')
@@ -79,7 +80,7 @@ function attachStores(stores: Website[], isBook: boolean) {
   buyButton.addEventListener(
     'click',
     (e: Event) => {
-      if (window.confirm("Voulez vous vraiment acheter sur Amazon au lieu d'une de ses alternatives ?") === false) {
+      if (window.confirm(confirmText) === false) {
         e.preventDefault()
         return
       }
