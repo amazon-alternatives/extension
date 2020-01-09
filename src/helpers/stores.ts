@@ -1,3 +1,4 @@
+const sprintf = require('sprintf-js').sprintf
 import { arrayShuffle } from '@adriantombu/array-shuffle'
 
 import ca from './stores/ca'
@@ -5,18 +6,11 @@ import de from './stores/de'
 import fr from './stores/fr'
 import uk from './stores/uk'
 
-const sprintf = require('sprintf-js').sprintf
-enum enabledCountries {
-  CA = 'ca',
-  DE = 'de',
-  FR = 'fr',
-  UK = 'uk',
-}
 const countries = { ca, de, fr, uk }
 
 export function getStores(category: keyof Store, search: string) {
   const host = window.location.hostname
-  const tld = host.split('.').pop() || enabledCountries.FR
+  const tld = host.split('.').pop() || 'FR'
   const country = countries[tld] ? countries[tld] : countries.fr
   const stores = !!country[category] ? country[category] : []
 

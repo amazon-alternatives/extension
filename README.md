@@ -4,6 +4,8 @@ Amazon Alternatives [![Buy me a tree](https://img.shields.io/badge/Buy%20me%20a%
 
 This is a browser extension to help you buy stuff you found in Amazon, but in other stores (like a real-life bookstore or an online Amazon alternative).
 
+Additionaly, the addon will show you a prompt everytime you wan't to buy on Amazon instead of one of his alternatives.
+
 ### Features
 * Shows a list of alternative stores
 * Multi-langage

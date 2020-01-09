@@ -41,9 +41,11 @@ function main() {
     title = document
       ?.querySelector('#productTitle')
       ?.textContent?.trim()
+      .replace('-', '')
       .split(' ')
       .slice(0, 4)
       .join(' ')
+      .trim()
   }
 
   stores = getStores(category as keyof Store, title)
@@ -70,7 +72,22 @@ function attachStores(stores: Website[], isBook: boolean) {
     if (!startNode) return
   }
 
-  const parentNode = startNode?.parentNode?.parentNode?.parentNode
+  startNode.style.cursor = 'help'
+
+  const buyButton = startNode?.parentNode?.parentNode as HTMLElement
+  buyButton.classList.remove('a-button-primary')
+  buyButton.addEventListener(
+    'click',
+    (e: Event) => {
+      if (window.confirm("Voulez vous vraiment acheter sur Amazon au lieu d'une de ses alternatives ?") === false) {
+        e.preventDefault()
+        return
+      }
+    },
+    false,
+  )
+
+  const parentNode = buyButton?.parentNode
   const divNode = document.createElement('div')
   divNode.id = 'uak-button'
   divNode.innerHTML = `
