@@ -1,27 +1,46 @@
-const sprintf = require('sprintf-js').sprintf
 import { arrayShuffle } from '@adriantombu/array-shuffle'
+const sprintf = require('printj').sprintf
+const countries = {
+  [Countries.CA]: require('./stores/ca').stores,
+  [Countries.DE]: require('./stores/de').stores,
+  [Countries.FR]: require('./stores/fr').stores,
+  [Countries.UK]: require('./stores/uk').stores,
+  [Countries.COM]: require('./stores/com').stores,
+}
 
-import ca from './stores/ca'
-import de from './stores/de'
-import fr from './stores/fr'
-import uk from './stores/uk'
+export function getStores(category: Category, search: string): Website[] {
+  const websites: Website[] = []
 
-const countries = { ca, de, fr, uk }
+  for (const store of getCountryStores()) {
+    if (store.categories.includes(category)) {
+      websites.push({
+        title: store.title,
+        url: sprintf(store.url, encodeURIComponent(search)),
+      })
+    }
+  }
 
-export function getStores(category: keyof Store, search: string) {
-  const host = window.location.hostname
-  const tld = host.split('.').pop() || 'FR'
-  const country = countries[tld] ? countries[tld] : countries.fr
-  const stores = !!country[category] ? country[category] : []
+  return arrayShuffle(websites)
+}
 
-  console.log('getStores', category, search, stores)
+function getCountryStores(): Store[] {
+  const tld = window.location.hostname.split('.').pop() || Countries.FR
 
-  return arrayShuffle(
-    stores.map(store => ({
-      title: store.title,
-      url: sprintf(store.url, encodeURIComponent(search)),
-    })),
-  )
+  return countries[tld] ? countries[tld] : countries[Countries.FR]
+}
+
+export const enum Countries {
+  CA = 'ca',
+  DE = 'de',
+  FR = 'fr',
+  UK = 'uk',
+  COM = 'com',
+}
+
+export interface Store {
+  title: string
+  url: string
+  categories: Category[]
 }
 
 export interface Website {
@@ -29,45 +48,45 @@ export interface Website {
   url: string
 }
 
-export interface Store {
-  'pets': Website[] // Animalerie
-  'mobile-apps': Website[] // Applis &amp; Jeux
-  'automotive': Website[] // Auto et Moto
-  'luggage': Website[] // Bagages
-  'beauty': Website[] // Beauté et Parfum
-  'luxury-beauty': Website[] // Beauté Prestige
-  'jewelry': Website[] // Bijoux
-  'gift-cards': Website[] // Boutique chèques-cadeaux
-  'digital-text': Website[] // Boutique Kindle
-  'diy': Website[] // Bricolage
-  'baby': Website[] // Bébés &amp; Puériculture
-  'shoes': Website[] // Chaussures et Sacs
-  'kitchen': Website[] // Cuisine &amp; Maison
-  'dvd': Website[] // DVD &amp; Blu-ray
-  'grocery': Website[] // Epicerie
-  'office-products': Website[] // Fournitures de bureau
-  'appliances': Website[] // Gros électroménager
-  'handmade': Website[] // Handmade
-  'electronics': Website[] // High-Tech
-  'hpc': Website[] // Hygiène et Santé
-  'computers': Website[] // Informatique
-  'mi': Website[] // Instruments de musique &amp; Sono
-  'garden': Website[] // Jardin
-  'toys': Website[] // Jeux et Jouets
-  'videogames': Website[] // Jeux vidéo
-  'english-books': Website[] // Livres anglais et étrangers
-  'stripbooks': Website[] // Livres
-  'books': Website[] // Livres
-  'software': Website[] // Logiciels
-  'lighting': Website[] // Luminaires et Eclairage
-  'fashion': Website[] // Mode
-  'under-ten-dollars': Website[] // Moins de 10€
-  'watches': Website[] // Montres
-  'popular': Website[] // Musique : CD &amp; Vinyles
-  'classical': Website[] // Musique classique
-  'instant-video': Website[] // Prime Video
-  'industrial': Website[] // Secteur industriel &amp; scientifique
-  'sports': Website[] // Sports et Loisirs
-  'digital-music': Website[] // Téléchargement de musique
-  'clothing': Website[] // Vêtements et accessoires
+export const enum Category {
+  PETS = 'pets', // Animalerie
+  MOBILE_APPS = 'mobile-apps', // Applis &amp; Jeux
+  AUTOMOTIVE = 'automotive', // Auto et Moto
+  LUGGAGE = 'luggage', // Bagages
+  BEAUTY = 'beauty', // Beauté et Parfum
+  LUXURY_BEAUTY = 'luxury-beauty', // Beauté Prestige
+  JEWELRY = 'jewelry', // Bijoux
+  GIFT_CARDS = 'gift-cards', // Boutique chèques-cadeaux
+  DIGITAL_TEXT = 'digital-text', // Boutique Kindle
+  DIY = 'diy', // Bricolage
+  BABY = 'baby', // Bébés &amp; Puériculture
+  SHOES = 'shoes', // Chaussures et Sacs
+  KITCHEN = 'kitchen', // Cuisine &amp; Maison
+  DVD = 'dvd', // DVD &amp; Blu-ray
+  GROCERY = 'grocery', // Epicerie
+  OFFICE_PRODUCTS = 'office-products', // Fournitures de bureau
+  APPLIANCES = 'appliances', // Gros électroménager
+  HANDMADE = 'handmade', // Handmade
+  ELECTRONICS = 'electronics', // High-Tech
+  HPC = 'hpc', // Hygiène et Santé
+  COMPUTERS = 'computers', // Informatique
+  MI = 'mi', // Instruments de musique &amp; Sono
+  GARDEN = 'garden', // Jardin
+  TOYS = 'toys', // Jeux et Jouets
+  VIDEOGAMES = 'videogames', // Jeux vidéo
+  ENGLISH_BOOKS = 'english-books', // Livres anglais et étrangers
+  STRIPBOOKS = 'stripbooks', // Livres
+  BOOKS = 'books', // Livres
+  SOFTWARE = 'software', // Logiciels
+  LIGHTING = 'lighting', // Luminaires et Eclairage
+  FASHION = 'fashion', // Mode
+  UNDER_TEN_DOLLARS = 'under-ten-dollars', // Moins de 10€
+  WATCHES = 'watches', // Montres
+  POPULAR = 'popular', // Musique = CD &amp; Vinyles
+  CLASSICAL = 'classical', // Musique classique
+  INSTANT_VIDEO = 'instant-video', // Prime Video
+  INDUSTRIAL = 'industrial', // Secteur industriel &amp; scientifique
+  SPORTS = 'sports', // Sports et Loisirs
+  DIGITAL_MUSIC = 'digital-music', // Téléchargement de musique
+  CLOTHING = 'clothing', // Vêtements et accessoires
 }
