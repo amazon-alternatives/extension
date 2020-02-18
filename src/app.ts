@@ -1,8 +1,5 @@
-const Honeybadger = require('honeybadger-js')
 import { getStores, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
-
-Honeybadger.configure({ apiKey: '06240932' })
 
 window['browser'] = (function() {
   return (window as any).msBrowser || (window as any).browser || (window as any).chrome

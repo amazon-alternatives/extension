@@ -9,19 +9,18 @@
   },
   "dependencies": {
     "@adriantombu/array-shuffle": "^2.0.3",
-    "honeybadger-js": "^2.0.2",
     "printj": "^1.2.2"
   },
   "devDependencies": {
     "chrome-webstore-upload-cli": "^1.2.0",
-    "husky": "^3.1.0",
-    "lint-staged": "^9.5.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.4",
-    "web-ext": "^4.0.0",
-    "webpack": "^4.41.4",
-    "webpack-cli": "^3.3.10"
+    "typescript": "^3.7.5",
+    "web-ext": "^4.1.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   },
   "husky": {
     "hooks": {
