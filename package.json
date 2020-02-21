@@ -1,4 +1,12 @@
 {
+  "description": "Find a book or something else in Amazon, et fetch it elswehere !",
+  "author": "Adrian Tombu <adrian@otso.fr> (https://otso.fr)",
+  "license": "GPL-3.0-or-later",
+  "repository": "https://github.com/adriantombu/amazon-alternatives",
+  "bugs": {
+    "url": "https://github.com/adriantombu/amazon-alternatives/issues",
+    "email": "adrian@otso.fr"
+  },
   "scripts": {
     "test": "echo \"No tests... yet\" && exit 0",
     "watch": "webpack --config webpack.config.js --mode production --watch",
@@ -17,7 +25,7 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5",
+    "typescript": "^3.8.2",
     "web-ext": "^4.1.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
