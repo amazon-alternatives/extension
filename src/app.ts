@@ -43,11 +43,12 @@ function getSearch(category: Category): SearchResult {
   search = document
     ?.querySelector('[id$="roductTitle"] ')
     ?.textContent?.trim()
-    .replace('-', '')
+    .replace(/[-)()]/gi, '')
     .split(' ')
     .slice(0, 4)
     .join(' ')
     .trim()
+    .toLowerCase()
 
   return {
     search: search || '',

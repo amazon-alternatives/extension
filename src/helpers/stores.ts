@@ -1,11 +1,14 @@
 import { arrayShuffle } from '@adriantombu/array-shuffle'
-const sprintf = require('printj').sprintf
+import { sprintf } from 'printj'
+
 const countries = {
   [Countries.CA]: require('./stores/ca').stores,
   [Countries.DE]: require('./stores/de').stores,
   [Countries.FR]: require('./stores/fr').stores,
   [Countries.UK]: require('./stores/uk').stores,
   [Countries.COM]: require('./stores/com').stores,
+  [Countries.ES]: require('./stores/es').stores,
+  [Countries.IT]: require('./stores/it').stores,
 }
 
 export function getStores(category: Category, search: string): Website[] {
@@ -35,6 +38,8 @@ export const enum Countries {
   FR = 'fr',
   UK = 'uk',
   COM = 'com',
+  ES = 'es',
+  IT = 'it',
 }
 
 export interface Store {
@@ -58,7 +63,7 @@ export const enum Category {
   JEWELRY = 'jewelry', // Bijoux
   GIFT_CARDS = 'gift-cards', // Boutique chèques-cadeaux
   DIGITAL_TEXT = 'digital-text', // Boutique Kindle
-  DIY = 'diy', // Bricolage
+  DIY = 'hi', // Bricolage
   BABY = 'baby', // Bébés &amp; Puériculture
   SHOES = 'shoes', // Chaussures et Sacs
   KITCHEN = 'kitchen', // Cuisine &amp; Maison
@@ -75,7 +80,7 @@ export const enum Category {
   TOYS = 'toys', // Jeux et Jouets
   VIDEOGAMES = 'videogames', // Jeux vidéo
   ENGLISH_BOOKS = 'english-books', // Livres anglais et étrangers
-  STRIPBOOKS = 'stripbooks', // Livres
+  STRIPBOOKS = 'stripbooks', // BD
   BOOKS = 'books', // Livres
   SOFTWARE = 'software', // Logiciels
   LIGHTING = 'lighting', // Luminaires et Eclairage

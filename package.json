@@ -16,7 +16,7 @@
     "publish:all": "yarn publish:chrome && yarn publish:firefox"
   },
   "dependencies": {
-    "@adriantombu/array-shuffle": "^2.0.3",
+    "@adriantombu/array-shuffle": "^2.0.9",
     "printj": "^1.2.2"
   },
   "devDependencies": {

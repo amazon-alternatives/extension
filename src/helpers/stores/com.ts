@@ -16,4 +16,9 @@ export const stores: Store[] = [
     url: 'https://www.kobo.com/us/en/search?query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
+  {
+    title: 'feedbooks.com',
+    url: 'http://www.feedbooks.com/search?lang=en&query=%1$s',
+    categories: [Category.DIGITAL_TEXT],
+  },
 ]
