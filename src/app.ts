@@ -7,57 +7,52 @@ window['browser'] = (function() {
 
 function main() {
   const category = document?.querySelector('#nav-subnav')?.getAttribute('data-category') as Category
-  const { search, isBook } = getSearch(category)
+  const search = getSearch(category)
   const stores = getStores(category, search)
+
   if (stores.length === 0) {
     console.log('not store found, exiting...')
     return
   }
 
-  attachStores(stores, isBook)
+  attachStores(stores)
 
   window['browser'].runtime.sendMessage({ url: stores[0].url })
 }
 
-function getSearch(category: Category): SearchResult {
-  let search
-
+function getSearch(category: Category): string {
   if ([Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS].includes(category)) {
     const nodes = Array.from(document.querySelectorAll('.content li'))
     const isbnNode = nodes.find(node => node.textContent?.includes('ISBN-13'))
+
     if (!isbnNode) {
-      return { search: '', isBook: false }
+      return ''
     }
 
-    search = isbnNode.textContent
-      ?.split(': ')[1]
-      .replace('-', '')
+    return (
+      isbnNode.textContent
+        ?.split(': ')[1]
+        .replace('-', '')
+        .trim() || ''
+    )
+  }
+
+  return (
+    document
+      ?.querySelector('[id$="roductTitle"] ')
+      ?.textContent?.trim()
+      .replace(/[)(:-]/gi, ' ')
+      .replace(/\s\s+/g, ' ')
+      .split(' ')
+      .slice(0, 5)
+      .join(' ')
       .trim()
-
-    return {
-      search: search || '',
-      isBook: true,
-    }
-  }
-
-  search = document
-    ?.querySelector('[id$="roductTitle"] ')
-    ?.textContent?.trim()
-    .replace(/[-)()]/gi, '')
-    .split(' ')
-    .slice(0, 4)
-    .join(' ')
-    .trim()
-    .toLowerCase()
-
-  return {
-    search: search || '',
-    isBook: false,
-  }
+      .toLowerCase() || ''
+  )
 }
 
-function attachStores(stores: Website[], isBook: boolean) {
-  const translations = getTranslations(isBook)
+function attachStores(stores: Website[]) {
+  const translations = getTranslations()
   const storeLinks = stores.map(store => `<li><a href="${store.url}" target="_blank">${store.title}</a></li>`)
   const startNode = getStartNode()
   if (!startNode) {
@@ -123,8 +118,3 @@ function setStyle(startNode, translations) {
 }
 
 main()
-
-interface SearchResult {
-  search: string
-  isBook: boolean
-}
