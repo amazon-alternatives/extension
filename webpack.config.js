@@ -3,7 +3,6 @@ const path = require('path')
 module.exports = {
   entry: {
     app: ['./src/app.ts'],
-    background: ['./src/background.ts']
   },
   module: {
     rules: [
@@ -15,10 +14,10 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [ '.ts', '.js' ],
+    extensions: ['.ts', '.js'],
   },
   output: {
     path: path.resolve(__dirname, './addon/'),
-    filename: '[name].js'
-  }
+    filename: '[name].js',
+  },
 }

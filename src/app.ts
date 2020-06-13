@@ -1,10 +1,6 @@
 import { getStores, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
 
-window['browser'] = (function() {
-  return (window as any).msBrowser || (window as any).browser || (window as any).chrome
-})()
-
 function main() {
   const category = document?.querySelector('#nav-subnav')?.getAttribute('data-category') as Category
   const search = getSearch(category)
@@ -16,8 +12,6 @@ function main() {
   }
 
   attachStores(stores)
-
-  window['browser'].runtime.sendMessage({ url: stores[0].url })
 }
 
 function getSearch(category: Category): string {
