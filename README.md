@@ -6,6 +6,8 @@ This is a browser extension to help you buy stuff you found in Amazon, but in ot
 
 Additionaly, the addon will show you a prompt everytime you wan't to buy on Amazon instead of one of his alternatives.
 
+![The addon in action](/buy-a-book.gif)
+
 ### Features
 
 - Shows a list of alternative stores
