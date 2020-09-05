@@ -53,7 +53,7 @@ function attachStores(stores: Website[]) {
     return
   }
 
-  setStyle(startNode, translations)
+  setStyle(startNode)
 
   const parentNode = startNode?.parentNode?.parentNode?.parentNode
   const divNode = document.createElement('div')
@@ -89,21 +89,13 @@ function getStartNode(): HTMLElement | null {
   return startNode
 }
 
-function setStyle(startNode, translations) {
-  startNode.style.cursor = 'help'
+function setStyle(startNode: HTMLElement | null) {
+  if (!startNode) {
+    return
+  }
 
   const buyButton = startNode?.parentNode?.parentNode as HTMLElement
   buyButton.classList.remove('a-button-primary', 'a-button-oneclick')
-  buyButton.addEventListener(
-    'click',
-    (e: Event) => {
-      if (window.confirm(translations.confirm) === false) {
-        e.preventDefault()
-        return
-      }
-    },
-    false,
-  )
 
   const buyNow = document.getElementById('buyNow')
   if (buyNow) {
