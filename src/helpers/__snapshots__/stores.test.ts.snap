@@ -1,0 +1,1584 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getCountryStores returns American stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "betterworldbooks.com",
+    "url": "https://www.betterworldbooks.com/search/results?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "bookshop.org",
+    "url": "https://bookshop.org/books?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/us/en/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores returns Canadian stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "leslibraires.ca",
+    "url": "http://www.leslibraires.ca/recherche/?t=&a=&e=&c=&i=%1$s&f=&ip=",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/ca/en/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores returns French stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "hi",
+      "toys",
+      "office-products",
+    ],
+    "title": "fnac.com",
+    "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "ldlc.com",
+    "url": "https://www.ldlc.com/recherche/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "materiel.net",
+    "url": "https://www.materiel.net/recherche/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "topachat.com",
+    "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+    ],
+    "title": "boulanger.com",
+    "url": "https://www.boulanger.com/resultats?tr=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+    ],
+    "title": "but.fr",
+    "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "backmarket.fr",
+    "url": "https://www.backmarket.fr/search/?q=%1$s&ga_search=%1$s#?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "cdiscount.com",
+    "url": "https://www.cdiscount.com/search/10/%1$s.html",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "rueducommerce.fr",
+    "url": "https://www.rueducommerce.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "rakuten.com",
+    "url": "https://fr.shopping.rakuten.com/s/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+    ],
+    "title": "culture.leclerc",
+    "url": "https://www.culture.leclerc/pageRecherche?q=%1$s&univers=al",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "placedeslibraires.fr",
+    "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "lalibrairie.com",
+    "url": "https://www.lalibrairie.com/livres/xxx_0-0000000_%1$s.html",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "leslibraires.fr",
+    "url": "https://www.leslibraires.fr/livre/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "recyclivre.com",
+    "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "librairiesindependantes.com",
+    "url": "https://www.librairiesindependantes.com/product/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "chapitre.com",
+    "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "books",
+      "stripbooks",
+    ],
+    "title": "bdfugue.com",
+    "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/fr/fr/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "emaginaire.com",
+    "url": "https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "7switch.com",
+    "url": "https://www.7switch.com/fr/list/search/page/1/revelance?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "numilog.com",
+    "url": "https://www.numilog.com/Pages/Recherche/ResultatRecherche.aspx?mode=brSimple&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "zalando.fr",
+    "url": "https://www.zalando.fr/catalogue/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "asos.fr",
+    "url": "https://www.asos.com/fr/search/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "spartoo.com",
+    "url": "https://www.spartoo.com/search.php?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "garden",
+      "luggage",
+      "lighting",
+    ],
+    "title": "laredoute.fr",
+    "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=%1$s&virtualsite=100#srt=noSorting",
+  },
+  Object {
+    "categories": Array [
+      "toys",
+    ],
+    "title": "philibertnet.com",
+    "url": "https://www.philibertnet.com/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "toys",
+    ],
+    "title": "magicbazar.fr",
+    "url": "https://www.magicbazar.fr/recherche/result.php?s=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "cobra.fr",
+    "url": "https://www.cobra.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "son-video.com",
+    "url": "https://www.son-video.com/recherche?termes=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "woodbrass.com",
+    "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "manomano.fr",
+    "url": "https://www.manomano.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "leroymerlin.fr",
+    "url": "https://www.leroymerlin.fr/v3/search/search.do?keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricodepot.fr",
+    "url": "https://www.bricodepot.fr/catalogue/search/node?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "mr-bricolage.fr",
+    "url": "https://www.mr-bricolage.fr/Montauban/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "castorama.fr",
+    "url": "https://www.castorama.fr/search?Ntt=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricorama.fr",
+    "url": "https://www.bricorama.fr/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricomarche.fr",
+    "url": "https://www.bricomarche.com/search?text=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "garden",
+      "pets",
+    ],
+    "title": "oogarden.com",
+    "url": "https://www.oogarden.com/Product/Search?Keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "santediscount.com",
+    "url": "https://www.santediscount.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "lasante.net",
+    "url": "https://lasante.net/recherche-%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "1001pharmacies.com",
+    "url": "https://www.1001pharmacies.com/search?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "pharma-gdd.com",
+    "url": "https://www.pharma-gdd.com/fr/search?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "doctipharma.fr",
+    "url": "https://www.doctipharma.fr/fr/search?q=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores returns German stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "genialokal.de",
+    "url": "https://www.genialokal.de/Suche/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "buchhandel.de",
+    "url": "https://www.buchhandel.de/suche/ergebnisse?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "buchkatalog.at",
+    "url": "https://www.buchkatalog.at/webapp/wcs/stores/servlet/KNVAdvancedSearchResult?storeId=270205&catalogId=4099276460822233275&langId=-3&fromAdvanceSearch=AdvanceSearch&pageType=HU&stock=&iehack=%E2%98%A0&offer=&avail=&media=All+Media&title=&keyword=&author1=&author=&actor1=&actor=&topic=&publisher1=&publisher=&movie_category=All+Categories&articleno=%1$s&lang=&lang1=deutsch&movie_subtitle=&covertype=all&range_price=from-to&price_from=&price_to=&range_age=from-to&age_from=&age_to=&range_age1=from-to&age1_from=&age1_to=&range_age2=from-to&age2_from=&age2_to=&range_issuedate=from-to&issuedate_from=&issuedate_to=&issue1=&issue=&nott=",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/de/de/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=de&query=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores returns Italian stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=it&query=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores returns Spanian stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=es&query=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores returns UK stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "hive.co.uk",
+    "url": "http://www.hive.co.uk/Search/Keyword?keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/gb/en/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores with empty host returns default stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "hi",
+      "toys",
+      "office-products",
+    ],
+    "title": "fnac.com",
+    "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "ldlc.com",
+    "url": "https://www.ldlc.com/recherche/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "materiel.net",
+    "url": "https://www.materiel.net/recherche/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "topachat.com",
+    "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+    ],
+    "title": "boulanger.com",
+    "url": "https://www.boulanger.com/resultats?tr=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+    ],
+    "title": "but.fr",
+    "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "backmarket.fr",
+    "url": "https://www.backmarket.fr/search/?q=%1$s&ga_search=%1$s#?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "cdiscount.com",
+    "url": "https://www.cdiscount.com/search/10/%1$s.html",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "rueducommerce.fr",
+    "url": "https://www.rueducommerce.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "rakuten.com",
+    "url": "https://fr.shopping.rakuten.com/s/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+    ],
+    "title": "culture.leclerc",
+    "url": "https://www.culture.leclerc/pageRecherche?q=%1$s&univers=al",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "placedeslibraires.fr",
+    "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "lalibrairie.com",
+    "url": "https://www.lalibrairie.com/livres/xxx_0-0000000_%1$s.html",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "leslibraires.fr",
+    "url": "https://www.leslibraires.fr/livre/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "recyclivre.com",
+    "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "librairiesindependantes.com",
+    "url": "https://www.librairiesindependantes.com/product/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "chapitre.com",
+    "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "books",
+      "stripbooks",
+    ],
+    "title": "bdfugue.com",
+    "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/fr/fr/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "emaginaire.com",
+    "url": "https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "7switch.com",
+    "url": "https://www.7switch.com/fr/list/search/page/1/revelance?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "numilog.com",
+    "url": "https://www.numilog.com/Pages/Recherche/ResultatRecherche.aspx?mode=brSimple&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "zalando.fr",
+    "url": "https://www.zalando.fr/catalogue/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "asos.fr",
+    "url": "https://www.asos.com/fr/search/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "spartoo.com",
+    "url": "https://www.spartoo.com/search.php?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "garden",
+      "luggage",
+      "lighting",
+    ],
+    "title": "laredoute.fr",
+    "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=%1$s&virtualsite=100#srt=noSorting",
+  },
+  Object {
+    "categories": Array [
+      "toys",
+    ],
+    "title": "philibertnet.com",
+    "url": "https://www.philibertnet.com/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "toys",
+    ],
+    "title": "magicbazar.fr",
+    "url": "https://www.magicbazar.fr/recherche/result.php?s=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "cobra.fr",
+    "url": "https://www.cobra.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "son-video.com",
+    "url": "https://www.son-video.com/recherche?termes=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "woodbrass.com",
+    "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "manomano.fr",
+    "url": "https://www.manomano.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "leroymerlin.fr",
+    "url": "https://www.leroymerlin.fr/v3/search/search.do?keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricodepot.fr",
+    "url": "https://www.bricodepot.fr/catalogue/search/node?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "mr-bricolage.fr",
+    "url": "https://www.mr-bricolage.fr/Montauban/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "castorama.fr",
+    "url": "https://www.castorama.fr/search?Ntt=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricorama.fr",
+    "url": "https://www.bricorama.fr/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricomarche.fr",
+    "url": "https://www.bricomarche.com/search?text=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "garden",
+      "pets",
+    ],
+    "title": "oogarden.com",
+    "url": "https://www.oogarden.com/Product/Search?Keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "santediscount.com",
+    "url": "https://www.santediscount.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "lasante.net",
+    "url": "https://lasante.net/recherche-%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "1001pharmacies.com",
+    "url": "https://www.1001pharmacies.com/search?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "pharma-gdd.com",
+    "url": "https://www.pharma-gdd.com/fr/search?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "doctipharma.fr",
+    "url": "https://www.doctipharma.fr/fr/search?q=%1$s",
+  },
+]
+`;
+
+exports[`getCountryStores with inexsting tld returns default stores 1`] = `
+Array [
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "hi",
+      "toys",
+      "office-products",
+    ],
+    "title": "fnac.com",
+    "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "ldlc.com",
+    "url": "https://www.ldlc.com/recherche/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "materiel.net",
+    "url": "https://www.materiel.net/recherche/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "topachat.com",
+    "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+    ],
+    "title": "boulanger.com",
+    "url": "https://www.boulanger.com/resultats?tr=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+    ],
+    "title": "but.fr",
+    "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "computers",
+    ],
+    "title": "backmarket.fr",
+    "url": "https://www.backmarket.fr/search/?q=%1$s&ga_search=%1$s#?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "cdiscount.com",
+    "url": "https://www.cdiscount.com/search/10/%1$s.html",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "rueducommerce.fr",
+    "url": "https://www.rueducommerce.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "automotive",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "luggage",
+      "beauty",
+      "luxury-beauty",
+      "jewelry",
+      "hi",
+      "baby",
+      "toys",
+      "office-products",
+    ],
+    "title": "rakuten.com",
+    "url": "https://fr.shopping.rakuten.com/s/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+    ],
+    "title": "culture.leclerc",
+    "url": "https://www.culture.leclerc/pageRecherche?q=%1$s&univers=al",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "placedeslibraires.fr",
+    "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "lalibrairie.com",
+    "url": "https://www.lalibrairie.com/livres/xxx_0-0000000_%1$s.html",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "leslibraires.fr",
+    "url": "https://www.leslibraires.fr/livre/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "recyclivre.com",
+    "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "librairiesindependantes.com",
+    "url": "https://www.librairiesindependantes.com/product/%1$s/",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "chapitre.com",
+    "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "books",
+      "stripbooks",
+    ],
+    "title": "bdfugue.com",
+    "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "kobo.com",
+    "url": "https://www.kobo.com/fr/fr/search?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "emaginaire.com",
+    "url": "https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "7switch.com",
+    "url": "https://www.7switch.com/fr/list/search/page/1/revelance?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "feedbooks.com",
+    "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "digital-text",
+    ],
+    "title": "numilog.com",
+    "url": "https://www.numilog.com/Pages/Recherche/ResultatRecherche.aspx?mode=brSimple&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "zalando.fr",
+    "url": "https://www.zalando.fr/catalogue/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "asos.fr",
+    "url": "https://www.asos.com/fr/search/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+    ],
+    "title": "spartoo.com",
+    "url": "https://www.spartoo.com/search.php?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "shoes",
+      "fashion",
+      "watches",
+      "clothing",
+      "electronics",
+      "computers",
+      "appliances",
+      "kitchen",
+      "popular",
+      "dvd",
+      "videogames",
+      "classical",
+      "garden",
+      "luggage",
+      "lighting",
+    ],
+    "title": "laredoute.fr",
+    "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=%1$s&virtualsite=100#srt=noSorting",
+  },
+  Object {
+    "categories": Array [
+      "toys",
+    ],
+    "title": "philibertnet.com",
+    "url": "https://www.philibertnet.com/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "toys",
+    ],
+    "title": "magicbazar.fr",
+    "url": "https://www.magicbazar.fr/recherche/result.php?s=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "cobra.fr",
+    "url": "https://www.cobra.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "son-video.com",
+    "url": "https://www.son-video.com/recherche?termes=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "electronics",
+      "mi",
+    ],
+    "title": "woodbrass.com",
+    "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "manomano.fr",
+    "url": "https://www.manomano.fr/recherche/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "leroymerlin.fr",
+    "url": "https://www.leroymerlin.fr/v3/search/search.do?keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricodepot.fr",
+    "url": "https://www.bricodepot.fr/catalogue/search/node?query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "mr-bricolage.fr",
+    "url": "https://www.mr-bricolage.fr/Montauban/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "castorama.fr",
+    "url": "https://www.castorama.fr/search?Ntt=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricorama.fr",
+    "url": "https://www.bricorama.fr/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hi",
+      "garden",
+    ],
+    "title": "bricomarche.fr",
+    "url": "https://www.bricomarche.com/search?text=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "garden",
+      "pets",
+    ],
+    "title": "oogarden.com",
+    "url": "https://www.oogarden.com/Product/Search?Keyword=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "santediscount.com",
+    "url": "https://www.santediscount.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "lasante.net",
+    "url": "https://lasante.net/recherche-%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "1001pharmacies.com",
+    "url": "https://www.1001pharmacies.com/search?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "pharma-gdd.com",
+    "url": "https://www.pharma-gdd.com/fr/search?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "hpc",
+      "beauty",
+      "baby",
+    ],
+    "title": "doctipharma.fr",
+    "url": "https://www.doctipharma.fr/fr/search?q=%1$s",
+  },
+]
+`;
+
+exports[`getStores returns a formatted list of stores 1`] = `
+Array [
+  Object {
+    "title": "fnac.com",
+    "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=Dell%20XPS%2013",
+  },
+  Object {
+    "title": "ldlc.com",
+    "url": "https://www.ldlc.com/recherche/Dell%20XPS%2013/",
+  },
+  Object {
+    "title": "materiel.net",
+    "url": "https://www.materiel.net/recherche/Dell%20XPS%2013/",
+  },
+  Object {
+    "title": "topachat.com",
+    "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=Dell%20XPS%2013",
+  },
+  Object {
+    "title": "boulanger.com",
+    "url": "https://www.boulanger.com/resultats?tr=Dell%20XPS%2013",
+  },
+  Object {
+    "title": "but.fr",
+    "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=Dell%20XPS%2013",
+  },
+  Object {
+    "title": "backmarket.fr",
+    "url": "https://www.backmarket.fr/search/?q=Dell%20XPS%2013&ga_search=Dell%20XPS%2013#?q=Dell%20XPS%2013",
+  },
+  Object {
+    "title": "cdiscount.com",
+    "url": "https://www.cdiscount.com/search/10/Dell%20XPS%2013.html",
+  },
+  Object {
+    "title": "rueducommerce.fr",
+    "url": "https://www.rueducommerce.fr/recherche/Dell%20XPS%2013",
+  },
+  Object {
+    "title": "rakuten.com",
+    "url": "https://fr.shopping.rakuten.com/s/Dell%20XPS%2013",
+  },
+  Object {
+    "title": "laredoute.fr",
+    "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=Dell%20XPS%2013&virtualsite=100#srt=noSorting",
+  },
+  Object {
+    "title": "cobra.fr",
+    "url": "https://www.cobra.fr/recherche/Dell%20XPS%2013",
+  },
+  Object {
+    "title": "son-video.com",
+    "url": "https://www.son-video.com/recherche?termes=Dell%20XPS%2013",
+  },
+  Object {
+    "title": "woodbrass.com",
+    "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=Dell%20XPS%2013",
+  },
+]
+`;

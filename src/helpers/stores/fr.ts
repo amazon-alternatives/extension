@@ -32,7 +32,7 @@ export const stores: Store[] = [
   },
   {
     title: 'topachat.com',
-    url: 'https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=$1%s',
+    url: 'https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s',
     categories: [Category.ELECTRONICS, Category.COMPUTERS],
   },
   {

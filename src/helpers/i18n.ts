@@ -1,5 +1,4 @@
-export function getTranslations(): Translation {
-  const host = window.location.hostname
+export function getTranslations(host: string): Translation {
   const translations = [
     {
       hosts: ['www.amazon.fr'],
