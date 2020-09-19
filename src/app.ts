@@ -1,17 +1,20 @@
+import { arrayShuffle } from '@adriantombu/array-shuffle'
+
 import { getStores, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
 
 function main() {
+  const host = window.location.hostname
   const category = document?.querySelector('#nav-subnav')?.getAttribute('data-category') as Category
   const search = getSearch(category)
-  const stores = getStores(category, search)
+  const stores = arrayShuffle(getStores(host, category, search))
 
   if (stores.length === 0) {
-    console.log('not store found, exiting...')
+    console.log('no store found, exiting...')
     return
   }
 
-  attachStores(stores)
+  attachStores(host, stores)
 }
 
 function getSearch(category: Category): string {
@@ -45,8 +48,8 @@ function getSearch(category: Category): string {
   )
 }
 
-function attachStores(stores: Website[]) {
-  const translations = getTranslations()
+function attachStores(host: string, stores: Website[]) {
+  const translations = getTranslations(host)
   const storeLinks = stores.map(store => `<li><a href="${store.url}" target="_blank">${store.title}</a></li>`)
   const startNode = getStartNode()
   if (!startNode) {
@@ -58,6 +61,7 @@ function attachStores(stores: Website[]) {
   const parentNode = startNode?.parentNode?.parentNode?.parentNode
   const divNode = document.createElement('div')
   divNode.id = 'uak-button'
+  divNode.setAttribute('aa-test-buy-button', '')
   divNode.classList.add('a-button-stack')
   divNode.innerHTML = `
       <span class="a-button a-spacing-small a-button-primary a-button-icon">
@@ -67,7 +71,7 @@ function attachStores(stores: Website[]) {
         </span>
       </span>
 
-      <div id="uak-stores-modal" style="z-index: 1000">
+      <div id="uak-stores-modal" style="z-index: 1000" aa-test-drodpown="">
         <ul>${storeLinks.join(' ')}</ul>
       </div>
   `

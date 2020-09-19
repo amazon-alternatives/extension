@@ -1,6 +1,3 @@
-import { arrayShuffle } from '@adriantombu/array-shuffle'
-import { sprintf } from 'printj'
-
 const countries = {
   [Countries.CA]: require('./stores/ca').stores,
   [Countries.DE]: require('./stores/de').stores,
@@ -11,23 +8,23 @@ const countries = {
   [Countries.IT]: require('./stores/it').stores,
 }
 
-export function getStores(category: Category, search: string): Website[] {
+export function getStores(host: string, category: Category, search: string): Website[] {
   const websites: Website[] = []
 
-  for (const store of getCountryStores()) {
+  for (const store of getCountryStores(host)) {
     if (store.categories.includes(category)) {
       websites.push({
         title: store.title,
-        url: sprintf(store.url, encodeURIComponent(search)),
+        url: store.url.replace(/%1\$s/gi, encodeURIComponent(search)),
       })
     }
   }
 
-  return arrayShuffle(websites)
+  return websites
 }
 
-function getCountryStores(): Store[] {
-  const tld = window.location.hostname.split('.').pop() || Countries.FR
+export function getCountryStores(host: string): Store[] {
+  const tld = host.split('.').pop() || Countries.FR
 
   return countries[tld] ? countries[tld] : countries[Countries.FR]
 }
