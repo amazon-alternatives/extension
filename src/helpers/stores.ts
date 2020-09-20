@@ -8,7 +8,7 @@ const countries = {
   [Countries.IT]: require('./stores/it').stores,
 }
 
-export function getStores(host: string, category: Category, search: string): Website[] {
+export const getStores = (host: string, category: Category, search: string): Website[] => {
   const websites: Website[] = []
 
   for (const store of getCountryStores(host)) {
@@ -23,7 +23,7 @@ export function getStores(host: string, category: Category, search: string): Web
   return websites
 }
 
-export function getCountryStores(host: string): Store[] {
+export const getCountryStores = (host: string): Store[] => {
   const tld = host.split('.').pop() || Countries.FR
 
   return countries[tld] ? countries[tld] : countries[Countries.FR]

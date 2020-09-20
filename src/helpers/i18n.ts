@@ -1,4 +1,4 @@
-export function getTranslations(host: string): Translation {
+export const getTranslations = (host: string): Translation => {
   const translations = [
     {
       hosts: ['www.amazon.fr'],

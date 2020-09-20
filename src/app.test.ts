@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer'
 import path from 'path'
 
-jest.setTimeout(30000)
+jest.setTimeout(60000)
 
 let browser: puppeteer.Browser
 let page: puppeteer.Page
@@ -45,17 +45,29 @@ describe('e2e testing', () => {
   })
 
   test('dropdown alternatives should exist on product page', async () => {
-    await page.goto('https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W', {
+    const urls = [
+      'https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W',
+      'https://www.amazon.fr/Dell-Ordinateur-Portable-Graphics-Fran%C3%A7ais/dp/B07XDBZ5N9',
+      'https://www.amazon.fr/Multim%C3%A8tre-AoKoZo-Automatique-Electrique-Professionnel/dp/B07XK8XLYC',
+      'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
+      'https://www.amazon.fr/NIVEA-Eau-Rose-Micellulaire-400/dp/B086NHB4SN',
+    ]
+
+    await page.goto('https://www.amazon.fr', {
       waitUntil: 'networkidle2',
     })
-
-    const buyButton = await page.$(buyButtonSelector)
-    expect(buyButton).not.toBe(null)
-
     await page.click('#a-autoid-0') // accepts the cookies
-    await page.hover(buyButtonSelector)
 
-    const dropdown = await page.$(dropdownSelector)
-    expect(dropdown).not.toBe(null)
+    for (const url of urls) {
+      await page.goto(url, { waitUntil: 'networkidle2' })
+
+      const buyButton = await page.$(buyButtonSelector)
+      expect(buyButton).not.toBe(null)
+
+      await page.hover(buyButtonSelector)
+
+      const dropdown = await page.$(dropdownSelector)
+      expect(dropdown).not.toBe(null)
+    }
   })
 })

@@ -1,9 +1,10 @@
 import { arrayShuffle } from '@adriantombu/array-shuffle'
 
+import { apiVisit } from './api'
 import { getStores, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
 
-function main() {
+const main = async () => {
   const host = window.location.hostname
   const category = document?.querySelector('#nav-subnav')?.getAttribute('data-category') as Category
   const search = getSearch(category)
@@ -14,10 +15,12 @@ function main() {
     return
   }
 
+  await apiVisit(host)
+
   attachStores(host, stores)
 }
 
-function getSearch(category: Category): string {
+const getSearch = (category: Category): string => {
   if ([Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS].includes(category)) {
     const nodes = Array.from(document.querySelectorAll('#detailBullets_feature_div .a-list-item'))
     const isbnNode = nodes.find(node => node.textContent?.includes('ISBN-13'))
@@ -48,7 +51,7 @@ function getSearch(category: Category): string {
   )
 }
 
-function attachStores(host: string, stores: Website[]) {
+const attachStores = (host: string, stores: Website[]) => {
   const translations = getTranslations(host)
   const storeLinks = stores.map(store => `<li><a href="${store.url}" target="_blank">${store.title}</a></li>`)
   const startNode = getStartNode()
@@ -79,7 +82,7 @@ function attachStores(host: string, stores: Website[]) {
   parentNode?.parentNode?.insertBefore(divNode, parentNode)
 }
 
-function getStartNode(): HTMLElement | null {
+const getStartNode = (): HTMLElement | null => {
   let startNode = document.getElementById('add-to-cart-button')
 
   if (!startNode) {
@@ -93,7 +96,7 @@ function getStartNode(): HTMLElement | null {
   return startNode
 }
 
-function setStyle(startNode: HTMLElement | null) {
+const setStyle = (startNode: HTMLElement | null) => {
   if (!startNode) {
     return
   }
