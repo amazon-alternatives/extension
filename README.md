@@ -1,10 +1,6 @@
 # Amazon Alternatives [![Buy me a tree](https://img.shields.io/badge/Buy%20me%20a%20tree-%F0%9F%8C%B3-lightgreen)](https://ecologi.com/adrian)
 
-_(previously known as Universal Amazon Killer)_
-
 This is a browser extension to help you buy stuff you found in Amazon, but in other stores (like a real-life bookstore or an online Amazon alternative).
-
-Additionaly, the addon will show you a prompt everytime you wan't to buy on Amazon instead of one of his alternatives.
 
 ![The addon in action](/buy-a-book.gif)
 
@@ -37,7 +33,7 @@ Additionaly, the addon will show you a prompt everytime you wan't to buy on Amaz
 
 #### Steps
 
-- Clone or download the repository from [Github](https://github.com/adriantombu/universal-amazon-killer)
+- Clone or download the repository from [Github](https://github.com/amazon-alternatives/extension)
 - Install the packages with `yarn install` or `npm install`
 - Run `yarn build` or `npm build` to compile the files
 - The files inside the `src` folder will be builded to the `addon` folder with Weback (you can find the configuration used in the `webpack.config.js` and `tsconfig.json` files)
