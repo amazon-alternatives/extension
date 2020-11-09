@@ -148,6 +148,11 @@ export const stores: Store[] = [
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
   },
   {
+    title: 'quaideslivres.fr',
+    url: 'https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
+  },
+  {
     title: 'recyclivre.com',
     url: 'https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
