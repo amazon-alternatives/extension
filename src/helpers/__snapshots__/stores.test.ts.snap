@@ -253,6 +253,15 @@ Array [
       "stripbooks",
       "books",
     ],
+    "title": "quaideslivres.fr",
+    "url": "https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
     "title": "recyclivre.com",
     "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
   },
@@ -804,6 +813,15 @@ Array [
       "stripbooks",
       "books",
     ],
+    "title": "quaideslivres.fr",
+    "url": "https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
     "title": "recyclivre.com",
     "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
   },
@@ -1250,6 +1268,15 @@ Array [
     ],
     "title": "leslibraires.fr",
     "url": "https://www.leslibraires.fr/livre/%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "quaideslivres.fr",
+    "url": "https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s",
   },
   Object {
     "categories": Array [
