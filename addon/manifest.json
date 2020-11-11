@@ -42,5 +42,5 @@
       "run_at": "document_end"
     }
   ],
-  "permissions": ["*://api.amazon-alternatives.com/*", "*://localhost/*", "activeTab"]
+  "permissions": ["*://api.amazon-alternatives.com/*", "*://staging.api.amazon-alternatives.com/*", "activeTab"]
 }
