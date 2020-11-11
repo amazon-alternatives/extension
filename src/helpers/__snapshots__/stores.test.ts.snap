@@ -285,6 +285,15 @@ Array [
   },
   Object {
     "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "livrenpoche.com",
+    "url": "https://www.livrenpoche.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
       "books",
       "stripbooks",
     ],
@@ -845,6 +854,15 @@ Array [
   },
   Object {
     "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "livrenpoche.com",
+    "url": "https://www.livrenpoche.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
       "books",
       "stripbooks",
     ],
@@ -1304,6 +1322,15 @@ Array [
     ],
     "title": "chapitre.com",
     "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+    ],
+    "title": "livrenpoche.com",
+    "url": "https://www.livrenpoche.com/catalogsearch/result/?q=%1$s",
   },
   Object {
     "categories": Array [

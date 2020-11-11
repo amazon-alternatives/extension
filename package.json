@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "jest",
+    "test:update": "jest --updateSnapshot",
     "watch": "webpack --config webpack.config.js --mode production --watch",
     "build": "webpack --config webpack.config.js --mode production",
     "publish:chrome": "webstore upload --auto-publish --extension-id hcjifkchlbbpcpmdbimipoidnljabnai --source ./addon --client-id $CHROME_CLIENT_ID --client-secret $CHROME_CLIENT_SECRET --refresh-token $CHROME_REFRESH_TOKEN",

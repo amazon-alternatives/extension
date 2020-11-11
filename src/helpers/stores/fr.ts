@@ -168,6 +168,11 @@ export const stores: Store[] = [
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
   },
   {
+    title: 'livrenpoche.com',
+    url: 'https://www.livrenpoche.com/catalogsearch/result/?q=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
+  },
+  {
     title: 'bdfugue.com',
     url: 'https://www.bdfugue.com/catalogsearch/result/?q=%1$s',
     categories: [Category.BOOKS, Category.STRIPBOOKS],
