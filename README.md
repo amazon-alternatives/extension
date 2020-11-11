@@ -12,6 +12,18 @@ This is a browser extension to help you buy stuff you found in Amazon, but in ot
 - Typescript-based, no external library
 - Universal compatibility for all major browsers (except Safari) in a single codebase : Chrome, Firefox, Edge, Opera, Brave and Vivaldi
 
+### List of the alternatives
+
+You can find a full list of the alternatives and their categories in the source code
+
+- [amazon.ca](src/helpers/stores/ca.ts)
+- [amazon.com](src/helpers/stores/com.ts)
+- [amazon.de](src/helpers/stores/de.ts)
+- [amazon.es](src/helpers/stores/es.ts)
+- [amazon.fr](src/helpers/stores/fr.ts)
+- [amazon.it](src/helpers/stores/it.ts)
+- [amazon.co.uk](src/helpers/stores/co.uk.ts)
+
 ### Where to install it
 
 - Chrome : [https://chrome.google.com/webstore/detail/amazon-alternatives/hcjifkchlbbpcpmdbimipoidnljabnai](https://chrome.google.com/webstore/detail/amazon-alternatives/hcjifkchlbbpcpmdbimipoidnljabnai)
