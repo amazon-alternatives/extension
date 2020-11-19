@@ -42,4 +42,29 @@ export const stores: Store[] = [
     url: 'https://www.hugendubel.de/de/quickSearch?searchString=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.CLASSICAL],
   },
+  {
+    title: 'Mediamarkt',
+    url: 'https://www.mediamarkt.de/de/search.html?query=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.CLASSICAL, Category.ELECTRONICS, Category.COMPUTERS, Category.APPLIANCES],
+  },
+  {
+    title: 'Saturn',
+    url: 'https://www.saturn.de/de/search.html?query=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.CLASSICAL, Category.ELECTRONICS, Category.COMPUTERS, Category.APPLIANCES],
+  },
+  {
+    title: 'Notebooksbilliger',
+    url: 'https://www.notebooksbilliger.de/produkte/%1$s',
+    categories: [Category.ELECTRONICS, Category.COMPUTERS],
+  },
+  {
+    title: 'Cyberport',
+    url: 'https://www.cyberport.de/tools/search-results.html?q=%1$s',
+    categories: [Category.ELECTRONICS, Category.COMPUTERS],
+  },
+  {
+    title: 'Expert',
+    url: 'https://www.expert.de/suche?q=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.CLASSICAL, Category.ELECTRONICS, Category.COMPUTERS, Category.APPLIANCES],
+  },
 ]
