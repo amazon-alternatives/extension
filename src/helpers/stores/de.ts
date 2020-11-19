@@ -27,4 +27,19 @@ export const stores: Store[] = [
     url: 'http://www.feedbooks.com/search?lang=de&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
+  {
+    title: 'Thalia',
+    url: 'https://www.thalia.de/suche?sq=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.VIDEOGAMES, Category.CLASSICAL],
+  },
+  {
+    title: 'Weltbild',
+    url: 'https://www.weltbild.de/suche/%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.CLASSICAL],
+  },
+  {
+    title: 'Hugendubel',
+    url: 'https://www.hugendubel.de/de/quickSearch?searchString=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT, Category.DVD, Category.CLASSICAL],
+  },
 ]
