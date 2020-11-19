@@ -77,6 +77,7 @@ export const enum Category {
   TOYS = 'toys', // Jeux et Jouets
   VIDEOGAMES = 'videogames', // Jeux vidéo
   ENGLISH_BOOKS = 'english-books', // Livres anglais et étrangers
+  BOOKS_INTL_DE = 'books-intl-de', // Fremdsprachige Bücher
   STRIPBOOKS = 'stripbooks', // BD
   BOOKS = 'books', // Livres
   SOFTWARE = 'software', // Logiciels

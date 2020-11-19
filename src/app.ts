@@ -21,7 +21,7 @@ const main = async () => {
 }
 
 const getSearch = (category: Category): string => {
-  if ([Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS].includes(category)) {
+  if ([Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.BOOKS_INTL_DE].includes(category)) {
     const nodes = Array.from(document.querySelectorAll('#detailBullets_feature_div .a-list-item'))
     const isbnNode = nodes.find(node => node.textContent?.includes('ISBN-13'))
 
