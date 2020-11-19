@@ -50,8 +50,8 @@ describe('e2e testing', () => {
       'https://www.amazon.fr/Dell-Ordinateur-Portable-Graphics-Fran%C3%A7ais/dp/B07XDBZ5N9',
       'https://www.amazon.fr/Multim%C3%A8tre-AoKoZo-Automatique-Electrique-Professionnel/dp/B07XK8XLYC',
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
-      'https://www.amazon.fr/NIVEA-Eau-Rose-Micellulaire-400/dp/B086NHB4SN',
       'https://www.amazon.de/Becoming-English-Michelle-Obama/dp/1524763136/',
+      'https://www.amazon.de/Franz-Beckenbauer-Kleine-Anekdoten-Fu%C3%9Fballikone/dp/3742312251/',
     ]
 
     await page.goto('https://www.amazon.fr', {

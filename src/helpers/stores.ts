@@ -80,6 +80,7 @@ export const enum Category {
   BOOKS_INTL_DE = 'books-intl-de', // Fremdsprachige Bücher
   STRIPBOOKS = 'stripbooks', // BD
   BOOKS = 'books', // Livres
+  BOOKS_CATALOG = 'books-catalog', // Bücher
   SOFTWARE = 'software', // Logiciels
   LIGHTING = 'lighting', // Luminaires et Eclairage
   FASHION = 'fashion', // Mode
