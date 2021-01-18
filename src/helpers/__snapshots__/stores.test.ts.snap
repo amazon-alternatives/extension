@@ -34,6 +34,16 @@ Array [
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
   },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/us/books/m/is:%1$s/?source=amazon-alternatives-extension",
+  },
 ]
 `;
 
@@ -61,6 +71,16 @@ Array [
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/ca/books/m/is:%1$s/?source=amazon-alternatives-extension",
   },
 ]
 `;
@@ -675,6 +695,16 @@ Array [
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/uk/books/m/is:%1$s/?source=amazon-alternatives-extension",
   },
 ]
 `;
