@@ -69,7 +69,7 @@ const attachStores = (host: string, stores: Website[]) => {
 
   setStyle(startNode)
 
-  const parentNode = startNode?.parentNode?.parentNode?.parentNode
+  const parentNode = startNode.closest('div.a-button-stack')
   const divNode = document.createElement('div')
   divNode.id = 'uak-button'
   divNode.setAttribute('aa-test-buy-button', '')
@@ -92,6 +92,10 @@ const attachStores = (host: string, stores: Website[]) => {
 
 const getStartNode = (): HTMLElement | null => {
   let startNode = document.getElementById('add-to-cart-button')
+
+  if (!startNode) {
+    startNode = document.getElementById('add-to-cart-button-ubb')
+  }
 
   if (!startNode) {
     startNode = document.getElementById('buybox-see-all-buying-choices-announce')
