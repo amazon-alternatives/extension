@@ -42,7 +42,7 @@ Array [
       "digital-text",
     ],
     "title": "ethicalbooksearch.com",
-    "url": "https://www.ethicalbooksearch.com/us/books/m/is:%1$s/?source=amazon-alternatives-extension",
+    "url": "https://www.ethicalbooksearch.com/us?query=%1$s/?source=amazon-alternatives-extension",
   },
 ]
 `;
@@ -80,7 +80,7 @@ Array [
       "digital-text",
     ],
     "title": "ethicalbooksearch.com",
-    "url": "https://www.ethicalbooksearch.com/ca/books/m/is:%1$s/?source=amazon-alternatives-extension",
+    "url": "https://www.ethicalbooksearch.com/ca?query=%1$s/?source=amazon-alternatives-extension",
   },
 ]
 `;
@@ -704,7 +704,7 @@ Array [
       "digital-text",
     ],
     "title": "ethicalbooksearch.com",
-    "url": "https://www.ethicalbooksearch.com/uk/books/m/is:%1$s/?source=amazon-alternatives-extension",
+    "url": "https://www.ethicalbooksearch.com/uk?query=%1$s/?source=amazon-alternatives-extension",
   },
 ]
 `;
