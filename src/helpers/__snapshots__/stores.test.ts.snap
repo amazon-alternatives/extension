@@ -322,6 +322,16 @@ Array [
   },
   Object {
     "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s",
+  },
+  Object {
+    "categories": Array [
       "digital-text",
     ],
     "title": "kobo.com",
@@ -595,6 +605,18 @@ Array [
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=de&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+      "books-intl-de",
+      "books-catalog",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/de?source=amazon-alternatives-extension&query=%1$s",
   },
 ]
 `;
@@ -943,6 +965,16 @@ Array [
     ],
     "title": "bdfugue.com",
     "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s",
   },
   Object {
     "categories": Array [
@@ -1414,6 +1446,16 @@ Array [
     ],
     "title": "bdfugue.com",
     "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s",
   },
   Object {
     "categories": Array [

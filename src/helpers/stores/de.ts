@@ -27,4 +27,16 @@ export const stores: Store[] = [
     url: 'http://www.feedbooks.com/search?lang=de&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
+  {
+    title: 'ethicalbooksearch.com',
+    url: 'https://www.ethicalbooksearch.com/de?source=amazon-alternatives-extension&query=%1$s',
+    categories: [
+      Category.ENGLISH_BOOKS,
+      Category.STRIPBOOKS,
+      Category.BOOKS,
+      Category.DIGITAL_TEXT,
+      Category.BOOKS_INTL_DE,
+      Category.BOOKS_CATALOG,
+    ],
+  },
 ]

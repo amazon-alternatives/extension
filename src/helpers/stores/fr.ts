@@ -178,6 +178,11 @@ export const stores: Store[] = [
     categories: [Category.BOOKS, Category.STRIPBOOKS],
   },
   {
+    title: 'ethicalbooksearch.com',
+    url: 'https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT],
+  },
+  {
     title: 'kobo.com',
     url: 'https://www.kobo.com/fr/fr/search?query=%1$s',
     categories: [Category.DIGITAL_TEXT],
