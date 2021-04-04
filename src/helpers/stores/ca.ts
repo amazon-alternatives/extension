@@ -18,7 +18,7 @@ export const stores: Store[] = [
   },
   {
     title: 'ethicalbooksearch.com',
-    url: 'https://www.ethicalbooksearch.com/ca?query=%1$s/?source=amazon-alternatives-extension',
+    url: 'https://www.ethicalbooksearch.com/ca?source=amazon-alternatives-extension&query=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT],
   },
 ]
