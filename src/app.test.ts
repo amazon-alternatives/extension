@@ -51,7 +51,6 @@ describe('e2e testing', () => {
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
       'https://www.amazon.de/Becoming-English-Michelle-Obama/dp/1524763136/',
       'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
-      'https://www.amazon.com/dp/B086383HC7',
       'https://smile.amazon.com/Travelpro-Luggage-Lightweight-Expandable-Suitcase/dp/B07BL7JXHV',
     ]
 
@@ -61,6 +60,7 @@ describe('e2e testing', () => {
     await page.click('#a-autoid-0') // accepts the cookies
 
     for (const url of urls) {
+      console.log(`testing ${url}`)
       await page.goto(url, { waitUntil: 'networkidle2' })
 
       const buyButton = await page.$(buyButtonSelector)
