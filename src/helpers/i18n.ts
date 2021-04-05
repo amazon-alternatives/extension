@@ -7,7 +7,14 @@ export const getTranslations = (host: string): Translation => {
       },
     },
     {
-      hosts: ['www.amazon.com', 'www.amazon.ca', 'www.amazon.co.uk', 'www.amazon.in'],
+      hosts: [
+        'www.amazon.com',
+        'www.amazon.ca',
+        'www.amazon.co.uk',
+        'www.amazon.in',
+        'smile.amazon.com',
+        'smile.amazon.co.uk',
+      ],
       i18n: {
         button: 'Buy elsewhere',
       },

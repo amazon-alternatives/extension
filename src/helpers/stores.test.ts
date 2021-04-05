@@ -26,7 +26,7 @@ test('getCountryStores returns American stores', () => {
   const stores = getCountryStores('www.amazon.com')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(5)
+  expect(stores.length).toBe(12)
   checkObjectKeys(stores)
 })
 
@@ -66,7 +66,7 @@ test('getCountryStores returns German stores', () => {
   const stores = getCountryStores('www.amazon.de')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(6)
+  expect(stores.length).toBe(14)
   checkObjectKeys(stores)
 })
 
