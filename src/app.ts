@@ -1,12 +1,12 @@
 import { arrayShuffle } from '@adriantombu/array-shuffle'
 
 import { apiVisit } from './api'
-import { getStores, Category, Website } from './helpers/stores'
+import { getStores, altCategories, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
 
 const main = async () => {
   const host = window.location.hostname
-  const category = document?.querySelector('#nav-subnav')?.getAttribute('data-category') as Category
+  const category = getCategory()
   const search = getSearch(category)
   const stores = arrayShuffle(getStores(host, category, search))
 
@@ -18,6 +18,17 @@ const main = async () => {
   await apiVisit(host)
 
   attachStores(host, stores)
+}
+
+const getCategory = (): Category => {
+  let category = document?.querySelector('#nav-subnav')?.getAttribute('data-category') as Category
+
+  if (!category) {
+    const altCategory = document?.querySelector('#dp')?.getAttribute('class')?.split(' ')[0] as string
+    category = altCategories[altCategory]
+  }
+
+  return category
 }
 
 const getSearch = (category: Category): string => {

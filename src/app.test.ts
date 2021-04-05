@@ -47,11 +47,12 @@ describe('e2e testing', () => {
   test('dropdown alternatives should exist on product page', async () => {
     const urls = [
       'https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W',
-      'https://www.amazon.fr/Dell-Ordinateur-Portable-Graphics-Fran%C3%A7ais/dp/B07XDBZ5N9',
-      'https://www.amazon.fr/Multim%C3%A8tre-AoKoZo-Automatique-Electrique-Professionnel/dp/B07XK8XLYC',
+      'https://www.amazon.fr/Acer-Chromebook-CB314-1H-P9X6-Ordinateur-portable/dp/B0842MTZWY',
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
       'https://www.amazon.de/Becoming-English-Michelle-Obama/dp/1524763136/',
-      'https://www.amazon.de/Franz-Beckenbauer-Kleine-Anekdoten-Fu%C3%9Fballikone/dp/3742312251/',
+      'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
+      'https://www.amazon.com/dp/B086383HC7',
+      'https://smile.amazon.com/Travelpro-Luggage-Lightweight-Expandable-Suitcase/dp/B07BL7JXHV',
     ]
 
     await page.goto('https://www.amazon.fr', {

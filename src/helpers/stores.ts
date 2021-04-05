@@ -29,6 +29,48 @@ export const getCountryStores = (host: string): Store[] => {
   return countries[tld] ? countries[tld] : countries[Countries.FR]
 }
 
+export const altCategories: AltCategory = {
+  art_and_craft_supply: Category.DIY,
+  apparel: Category.CLOTHING,
+  automotive: Category.AUTOMOTIVE,
+  baby_product: Category.BABY,
+  beauty: Category.BEAUTY,
+  biss_basic: Category.DIY,
+  ce: Category.ELECTRONICS,
+  digital_video_games: Category.VIDEOGAMES,
+  digital_software: Category.SOFTWARE,
+  dvd: Category.DVD,
+  fabric: Category.DIY,
+  furniture: Category.OFFICE_PRODUCTS,
+  health_and_beauty: Category.HPC,
+  home: Category.KITCHEN,
+  home_improvement: Category.KITCHEN,
+  home_theater: Category.ELECTRONICS,
+  jewelry: Category.JEWELRY,
+  kitchen: Category.KITCHEN,
+  lawn_and_garden: Category.GARDEN,
+  lighting: Category.LIGHTING,
+  luggage: Category.LUGGAGE,
+  music: Category.POPULAR,
+  network_media_player: Category.ELECTRONICS,
+  office_electronics: Category.ELECTRONICS,
+  office_product: Category.OFFICE_PRODUCTS,
+  pc: Category.COMPUTERS,
+  pc_accessory: Category.ELECTRONICS,
+  photo: Category.ELECTRONICS,
+  pet_products: Category.PETS,
+  sdp_misc: Category.KITCHEN,
+  shoes: Category.SHOES,
+  speakers: Category.ELECTRONICS,
+  sports: Category.SPORTS,
+  software: Category.SOFTWARE,
+  toy: Category.TOYS,
+  vdo_devices: Category.ELECTRONICS,
+  video_games: Category.VIDEOGAMES,
+  watch: Category.WATCHES,
+  wireless: Category.ELECTRONICS,
+}
+
 export const enum Countries {
   CA = 'ca',
   DE = 'de',
@@ -93,4 +135,8 @@ export const enum Category {
   SPORTS = 'sports', // Sports et Loisirs
   DIGITAL_MUSIC = 'digital-music', // Téléchargement de musique
   CLOTHING = 'clothing', // Vêtements et accessoires
+}
+
+interface AltCategory {
+  [key: string]: Category
 }
