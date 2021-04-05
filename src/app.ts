@@ -78,8 +78,6 @@ const attachStores = (host: string, stores: Website[]) => {
     return
   }
 
-  setStyle(startNode)
-
   const parentNode = startNode.closest('div.a-button-stack')
   const divNode = document.createElement('div')
   divNode.id = 'uak-button'
@@ -99,6 +97,8 @@ const attachStores = (host: string, stores: Website[]) => {
   `
 
   parentNode?.parentNode?.insertBefore(divNode, parentNode)
+
+  setStyle(startNode)
 }
 
 const getStartNode = (): HTMLElement | null => {
@@ -116,6 +116,10 @@ const getStartNode = (): HTMLElement | null => {
     startNode = document.getElementById('one-click-button')
   }
 
+  if (!startNode) {
+    startNode = document.getElementById('buy-now-button')
+  }
+
   return startNode
 }
 
@@ -127,10 +131,8 @@ const setStyle = (startNode: HTMLElement | null) => {
   const buyButton = startNode?.parentNode?.parentNode as HTMLElement
   buyButton.classList.remove('a-button-primary', 'a-button-oneclick')
 
-  const buyNow = document.getElementById('buyNow')
-  if (buyNow) {
-    buyNow.remove()
-  }
+  const buyNow = document.getElementById('submit.buy-now') as HTMLElement
+  buyNow.classList.remove('a-button-oneclick')
 }
 
 main()
