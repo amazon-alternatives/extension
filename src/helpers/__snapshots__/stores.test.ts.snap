@@ -872,6 +872,16 @@ Array [
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=it&query=%1$s",
   },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/it?source=amazon-alternatives-extension&query=%1$s",
+  },
 ]
 `;
 
@@ -883,6 +893,16 @@ Array [
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=es&query=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "english-books",
+      "stripbooks",
+      "books",
+      "digital-text",
+    ],
+    "title": "ethicalbooksearch.com",
+    "url": "https://www.ethicalbooksearch.com/es?source=amazon-alternatives-extension&query=%1$s",
   },
 ]
 `;
