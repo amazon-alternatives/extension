@@ -46,7 +46,7 @@ test('getCountryStores returns UK stores', () => {
   checkObjectKeys(stores)
 })
 
-test('getCountryStores returns Spanian stores', () => {
+test('getCountryStores returns Spanish stores', () => {
   const stores = getCountryStores('www.amazon.es')
 
   expect(stores).toMatchSnapshot()
