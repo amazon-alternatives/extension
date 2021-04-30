@@ -50,7 +50,7 @@ test('getCountryStores returns Spanian stores', () => {
   const stores = getCountryStores('www.amazon.es')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(1)
+  expect(stores.length).toBe(2)
   checkObjectKeys(stores)
 })
 
@@ -58,7 +58,7 @@ test('getCountryStores returns Italian stores', () => {
   const stores = getCountryStores('www.amazon.it')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(1)
+  expect(stores.length).toBe(2)
   checkObjectKeys(stores)
 })
 
