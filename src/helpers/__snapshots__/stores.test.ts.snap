@@ -48,6 +48,7 @@ Array [
     "categories": Array [
       "electronics",
       "computers",
+      "apple-devices",
     ],
     "title": "ebuyer.com",
     "url": "https://www.ebuyer.com/search?q=%1$s",
@@ -56,6 +57,7 @@ Array [
     "categories": Array [
       "electronics",
       "computers",
+      "apple-devices",
       "software",
       "dvd",
       "toys",
@@ -77,6 +79,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -101,6 +104,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -124,6 +128,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -147,6 +152,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -170,6 +176,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -200,7 +207,7 @@ Array [
       "books",
     ],
     "title": "leslibraires.ca",
-    "url": "http://www.leslibraires.ca/recherche/?t=&a=&e=&c=&i=%1$s&f=&ip=",
+    "url": "https://www.leslibraires.ca/recherche/?t=&a=&e=&c=&i=%1$s&f=&ip=",
   },
   Object {
     "categories": Array [
@@ -214,7 +221,7 @@ Array [
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=en&query=%1$s",
   },
   Object {
     "categories": Array [
@@ -235,6 +242,7 @@ Array [
     "categories": Array [
       "automotive",
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -253,6 +261,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "ldlc.com",
@@ -261,6 +270,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "materiel.net",
@@ -269,6 +279,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "topachat.com",
@@ -277,6 +288,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -287,6 +299,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -297,6 +310,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "backmarket.fr",
@@ -307,6 +321,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -330,6 +345,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -353,6 +369,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -547,6 +564,7 @@ Array [
       "clothing",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -919,7 +937,7 @@ Array [
       "classical",
     ],
     "title": "hive.co.uk",
-    "url": "http://www.hive.co.uk/Search/Keyword?keyword=%1$s",
+    "url": "https://www.hive.co.uk/Search/Keyword?keyword=%1$s",
   },
   Object {
     "categories": Array [
@@ -978,7 +996,7 @@ Array [
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=en&query=%1$s",
   },
   Object {
     "categories": Array [
@@ -999,6 +1017,7 @@ Array [
     "categories": Array [
       "automotive",
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -1017,6 +1036,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "ldlc.com",
@@ -1025,6 +1045,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "materiel.net",
@@ -1033,6 +1054,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "topachat.com",
@@ -1041,6 +1063,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -1051,6 +1074,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -1061,6 +1085,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "backmarket.fr",
@@ -1071,6 +1096,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1094,6 +1120,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1117,6 +1144,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1311,6 +1339,7 @@ Array [
       "clothing",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1480,6 +1509,7 @@ Array [
     "categories": Array [
       "automotive",
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -1498,6 +1528,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "ldlc.com",
@@ -1506,6 +1537,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "materiel.net",
@@ -1514,6 +1546,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "topachat.com",
@@ -1522,6 +1555,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -1532,6 +1566,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
       "appliances",
       "kitchen",
@@ -1542,6 +1577,7 @@ Array [
   Object {
     "categories": Array [
       "electronics",
+      "apple-devices",
       "computers",
     ],
     "title": "backmarket.fr",
@@ -1552,6 +1588,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1575,6 +1612,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1598,6 +1636,7 @@ Array [
       "automotive",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",
@@ -1792,6 +1831,7 @@ Array [
       "clothing",
       "electronics",
       "computers",
+      "apple-devices",
       "appliances",
       "kitchen",
       "popular",

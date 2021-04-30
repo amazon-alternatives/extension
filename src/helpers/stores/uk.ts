@@ -3,7 +3,7 @@ import { Store, Category } from '../stores'
 export const stores: Store[] = [
   {
     title: 'hive.co.uk',
-    url: 'http://www.hive.co.uk/Search/Keyword?keyword=%1$s',
+    url: 'https://www.hive.co.uk/Search/Keyword?keyword=%1$s',
     categories: [
       Category.ENGLISH_BOOKS,
       Category.STRIPBOOKS,
@@ -45,7 +45,7 @@ export const stores: Store[] = [
   },
   {
     title: 'feedbooks.com',
-    url: 'http://www.feedbooks.com/search?lang=en&query=%1$s',
+    url: 'https://www.feedbooks.com/search?lang=en&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
   {

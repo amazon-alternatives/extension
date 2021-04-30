@@ -135,6 +135,7 @@ export const enum Category {
   SPORTS = 'sports', // Sports et Loisirs
   DIGITAL_MUSIC = 'digital-music', // Téléchargement de musique
   CLOTHING = 'clothing', // Vêtements et accessoires
+  APPLE_DEVICES = 'apple-devices', // Apple
 }
 
 interface AltCategory {
