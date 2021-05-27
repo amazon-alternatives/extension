@@ -185,7 +185,7 @@ export const stores: Store[] = [
   },
   {
     title: 'livrenpoche.com',
-    url: 'https://www.livrenpoche.com/catalogsearch/result/?q=%1$s',
+    url: 'https://www.livrenpoche.com/a/achat/search?type=product&q=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
   },
   {
@@ -205,8 +205,7 @@ export const stores: Store[] = [
   },
   {
     title: 'emaginaire.com',
-    url:
-      'https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s',
+    url: 'https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
   {
