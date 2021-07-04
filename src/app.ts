@@ -51,7 +51,7 @@ const getSearch = (category: Category): string => {
     return (
       isbnNode.textContent
         ?.split(':')[1]
-        .replace(/(\n|\s|-)/g, '')
+        .replace(/[^0-9]/gm, '')
         .trim() || ''
     )
   }
