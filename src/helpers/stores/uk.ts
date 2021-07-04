@@ -15,13 +15,13 @@ export const stores: Store[] = [
   },
   {
     title: 'worldofbooks.com',
-    url: 'https://www.worldofbooks.com/en-gb/books/xxx/xxx/%1$s',
+    url: 'https://www.worldofbooks.com/en-gb/category/all?pt=book&search=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
   },
   {
-    title: 'wordery.com',
-    url: 'https://wordery.com/search?term=%1$s',
-    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
+    title: 'worldofbooks.com',
+    url: 'https://www.worldofbooks.com/en-gb/category/all?pt=dvd&search=%1$s',
+    categories: [Category.DVD],
   },
   {
     title: 'booksetc.co.uk',
