@@ -24,6 +24,11 @@ export const stores: Store[] = [
     categories: [Category.DVD],
   },
   {
+    title: 'wordery.com',
+    url: 'https://wordery.com/search?term=%1$s',
+    categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
+  },
+  {
     title: 'booksetc.co.uk',
     url: 'https://www.booksetc.co.uk/books/search?q=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
