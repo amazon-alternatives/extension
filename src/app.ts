@@ -1,6 +1,5 @@
 import { arrayShuffle } from '@adriantombu/array-shuffle'
 
-import { apiVisit } from './api'
 import { getStores, altCategories, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
 
@@ -14,8 +13,6 @@ const main = async () => {
     console.log('no store found, exiting...')
     return
   }
-
-  await apiVisit(host)
 
   attachStores(host, stores)
 }
@@ -48,12 +45,7 @@ const getSearch = (category: Category): string => {
       return ''
     }
 
-    return (
-      isbnNode.textContent
-        ?.split(':')[1]
-        .replace(/(\n|\s|-)/g, '')
-        .trim() || ''
-    )
+    return isbnNode.textContent?.split(':')[1].replace(/\D/g, '') || ''
   }
 
   return (

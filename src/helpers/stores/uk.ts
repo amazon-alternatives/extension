@@ -19,6 +19,16 @@ export const stores: Store[] = [
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
   },
   {
+    title: 'worldofbooks.com',
+    url: 'https://www.worldofbooks.com/en-gb/category/all?pt=dvd&search=%1$s',
+    categories: [Category.DVD],
+  },
+  {
+    title: 'worldofbooks.com',
+    url: 'https://www.worldofbooks.com/en-gb/category/all?pt=video_game&search=%1$s',
+    categories: [Category.VIDEOGAMES],
+  },
+  {
     title: 'wordery.com',
     url: 'https://wordery.com/search?term=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],

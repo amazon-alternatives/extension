@@ -42,7 +42,7 @@ test('getCountryStores returns UK stores', () => {
   const stores = getCountryStores('www.amazon.co.uk')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(9)
+  expect(stores.length).toBe(11)
   checkObjectKeys(stores)
 })
 
