@@ -950,6 +950,20 @@ Array [
   },
   Object {
     "categories": Array [
+      "dvd",
+    ],
+    "title": "worldofbooks.com",
+    "url": "https://www.worldofbooks.com/en-gb/category/all?pt=dvd&search=%1$s",
+  },
+  Object {
+    "categories": Array [
+      "videogames",
+    ],
+    "title": "worldofbooks.com",
+    "url": "https://www.worldofbooks.com/en-gb/category/all?pt=video_game&search=%1$s",
+  },
+  Object {
+    "categories": Array [
       "english-books",
       "stripbooks",
       "books",
