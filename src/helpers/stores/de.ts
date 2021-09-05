@@ -107,6 +107,17 @@ export const stores: Store[] = [
     ],
   },
   {
+    title: 'Thomann',
+    url: 'https://www.thomann.de/intl/search_dir.html?sw=%1$s',
+    categories: [
+      Category.MI,
+      Category.CLASSICAL,
+      Category.ELECTRONICS,
+      Category.COMPUTERS,
+      Category.APPLIANCES,
+    ],
+  },
+  {
     title: 'Notebooksbilliger',
     url: 'https://www.notebooksbilliger.de/produkte/%1$s',
     categories: [Category.ELECTRONICS, Category.COMPUTERS],
