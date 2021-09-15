@@ -849,6 +849,17 @@ Array [
   },
   Object {
     "categories": Array [
+      "mi",
+      "classical",
+      "electronics",
+      "computers",
+      "appliances",
+    ],
+    "title": "Thomann",
+    "url": "https://www.thomann.de/intl/search_dir.html?sw=%1$s",
+  },
+  Object {
+    "categories": Array [
       "electronics",
       "computers",
     ],

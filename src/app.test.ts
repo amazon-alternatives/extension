@@ -51,7 +51,7 @@ describe('e2e testing', () => {
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
       'https://www.amazon.de/Becoming-English-Michelle-Obama/dp/1524763136/',
       'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
-      'https://smile.amazon.com/Travelpro-Luggage-Lightweight-Expandable-Suitcase/dp/B07BL7JXHV',
+      'https://www.amazon.com/Samsonite-68308-2479-Carry-On-Caribbean-Blue/dp/B013WFNQJG/',
     ]
 
     await page.goto('https://www.amazon.fr', {
