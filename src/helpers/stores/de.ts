@@ -108,7 +108,7 @@ export const stores: Store[] = [
   {
     title: 'Thomann',
     url: 'https://www.thomann.de/intl/search_dir.html?sw=%1$s',
-    categories: [Category.MI, Category.CLASSICAL, Category.ELECTRONICS, Category.COMPUTERS, Category.APPLIANCES],
+    categories: [Category.CLASSICAL, Category.COMPUTERS, Category.ELECTRONICS, Category.MI],
   },
   {
     title: 'Notebooksbilliger',
