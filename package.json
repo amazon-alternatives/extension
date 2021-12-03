@@ -22,7 +22,7 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "@types/puppeteer": "^5.4.4",
-    "chrome-webstore-upload-cli": "^2.0.1",
+    "chrome-webstore-upload-cli": "^1.2.2",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^12.1.2",
