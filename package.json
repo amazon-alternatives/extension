@@ -20,14 +20,14 @@
     "@adriantombu/array-shuffle": "^2.0.10"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.24",
+    "@types/jest": "^27.0.3",
     "@types/puppeteer": "^5.4.4",
-    "chrome-webstore-upload-cli": "^1.2.1",
+    "chrome-webstore-upload-cli": "^2.0.1",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^12.1.2",
     "prettier": "^2.3.2",
-    "puppeteer": "^10.1.0",
+    "puppeteer": "^12.0.1",
     "ts-jest": "^27.0.3",
     "ts-loader": "^9.2.3",
     "typescript": "^4.3.5",
