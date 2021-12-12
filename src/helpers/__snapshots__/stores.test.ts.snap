@@ -2019,6 +2019,15 @@ Array [
 ]
 `;
 
+exports[`getStores returns a default value when no stores where found 1`] = `
+Array [
+  Object {
+    "title": "Aucune alternative trouvée, cliquez pour envoyer un mail au développeur.",
+    "url": "mailto:Adrian%20Tombu%3Ccontact%40otso.fr%3E?subject=Amazon%20Alternatives%20-%20Missing%20category&body=%0A%20%20%20%20%20%20%3Cb%3EProduct%20url%3A%3C%2Fb%3E%20%3Ca%20href%3D%22%22%3E%3C%2Fa%3E%0A%20%20%20%20%20%20%3Cb%3EHost%3A%3C%2Fb%3E%20www.amazon.fr%0A%20%20%20%20%20%20%3Cb%3ECategory%20detected%3A%3C%2Fb%3E%20404_CATEGORY%0A%20%20%20%20%20%20%3Cb%3ESearch%20values%3A%3C%2Fb%3E%20Some%20random%20product%0A%20%20%20%20",
+  },
+]
+`;
+
 exports[`getStores returns a formatted list of stores 1`] = `
 Array [
   Object {

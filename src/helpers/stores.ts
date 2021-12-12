@@ -1,3 +1,5 @@
+import { getTranslations } from './i18n'
+
 const countries = {
   [Countries.CA]: require('./stores/ca').stores,
   [Countries.DE]: require('./stores/de').stores,
@@ -8,16 +10,30 @@ const countries = {
   [Countries.IT]: require('./stores/it').stores,
 }
 
-export const getStores = (host: string, category: Category, search: string): Website[] => {
+export const getStores = (location: Location, category: Category, search: string): Website[] => {
   const websites: Website[] = []
 
-  for (const store of getCountryStores(host)) {
+  for (const store of getCountryStores(location.hostname)) {
     if (store.categories.includes(category)) {
       websites.push({
         title: store.title,
         url: store.url.replace(/%1\$s/gi, encodeURIComponent(search)),
       })
     }
+  }
+
+  if (websites.length === 0) {
+    const title = getTranslations(location.hostname).error
+    const to = encodeURIComponent('Adrian Tombu<contact@otso.fr>')
+    const subject = encodeURIComponent('Amazon Alternatives - Missing category')
+    const body = encodeURIComponent(`
+      <b>Product url:</b> <a href="${location.href}">${location.href}</a>
+      <b>Host:</b> ${location.hostname}
+      <b>Category detected:</b> ${category}
+      <b>Search values:</b> ${search}
+    `)
+
+    websites.push({ title, url: `mailto:${to}?subject=${subject}&body=${body}` })
   }
 
   return websites

@@ -151,8 +151,7 @@ export const stores: Store[] = [
   },
   {
     title: 'bestbuy.com',
-    url:
-      'https://www.bestbuy.com/site/searchpage.jsp?st=%1$s&_dyncharset=UTF-8&_dynSessConf=&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys',
+    url: 'https://www.bestbuy.com/site/searchpage.jsp?st=%1$s&_dyncharset=UTF-8&_dynSessConf=&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys',
     categories: [
       Category.AUTOMOTIVE,
       Category.ELECTRONICS,

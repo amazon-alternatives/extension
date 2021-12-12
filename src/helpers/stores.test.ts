@@ -7,10 +7,22 @@ const checkObjectKeys = (stores, keys = ['categories', 'url', 'title']) => {
 }
 
 test('getStores returns a formatted list of stores', () => {
-  const stores = getStores('www.amazon.fr', Category.ELECTRONICS, 'Dell XPS 13')
+  const stores = getStores({ hostname: 'www.amazon.fr', href: '' } as Location, Category.ELECTRONICS, 'Dell XPS 13')
 
   expect(stores).toMatchSnapshot()
   expect(stores.length).toBe(14)
+  checkObjectKeys(stores, ['title', 'url'])
+})
+
+test('getStores returns a default value when no stores where found', () => {
+  const stores = getStores(
+    { hostname: 'www.amazon.fr', href: '' } as Location,
+    '404_CATEGORY' as Category,
+    'Some random product',
+  )
+
+  expect(stores).toMatchSnapshot()
+  expect(stores.length).toBe(1)
   checkObjectKeys(stores, ['title', 'url'])
 })
 

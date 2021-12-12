@@ -4,17 +4,11 @@ import { getStores, altCategories, Category, Website } from './helpers/stores'
 import { getTranslations } from './helpers/i18n'
 
 const main = async () => {
-  const host = window.location.hostname
   const category = getCategory()
   const search = getSearch(category)
-  const stores = arrayShuffle(getStores(host, category, search))
+  const stores = arrayShuffle(getStores(window.location, category, search))
 
-  if (stores.length === 0) {
-    console.log('no store found, exiting...')
-    return
-  }
-
-  attachStores(host, stores)
+  attachStores(window.location.hostname, stores)
 }
 
 const getCategory = (): Category => {
