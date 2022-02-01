@@ -11,7 +11,7 @@
     "test": "jest",
     "test:update": "jest --updateSnapshot",
     "build": "webpack --config webpack.config.js --mode production",
-    "publish:chrome": "webstore upload --auto-publish --extension-id hcjifkchlbbpcpmdbimipoidnljabnai --source ./addon --client-id $CHROME_CLIENT_ID --client-secret $CHROME_CLIENT_SECRET --refresh-token $CHROME_REFRESH_TOKEN",
+    "publish:chrome": "chrome-webstore-upload upload --auto-publish --extension-id hcjifkchlbbpcpmdbimipoidnljabnai --source ./addon --client-id $CHROME_CLIENT_ID --client-secret $CHROME_CLIENT_SECRET --refresh-token $CHROME_REFRESH_TOKEN",
     "publish:firefox": "cd addon && web-ext sign --api-key $FIREFOX_API_KEY --api-secret $FIREFOX_API_SECRET || exit 0",
     "publish:all": "yarn publish:chrome && yarn publish:firefox",
     "prepare": "husky install"
@@ -22,12 +22,12 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "@types/puppeteer": "^5.4.4",
-    "chrome-webstore-upload-cli": "^1.2.2",
+    "chrome-webstore-upload-cli": "^2.0.1",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
     "lint-staged": "^12.1.2",
     "prettier": "^2.3.2",
-    "puppeteer": "^12.0.1",
+    "puppeteer": "^13.1.3",
     "ts-jest": "^27.0.3",
     "ts-loader": "^9.2.3",
     "typescript": "^4.3.5",
