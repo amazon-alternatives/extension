@@ -85,6 +85,7 @@ export const altCategories: AltCategory = {
   video_games: Category.VIDEOGAMES,
   watch: Category.WATCHES,
   wireless: Category.ELECTRONICS,
+  amazon_smp: Category.AMAZON_DEVICES,
 }
 
 export const enum Countries {
@@ -152,6 +153,7 @@ export const enum Category {
   DIGITAL_MUSIC = 'digital-music', // Téléchargement de musique
   CLOTHING = 'clothing', // Vêtements et accessoires
   APPLE_DEVICES = 'apple-devices', // Apple
+  AMAZON_DEVICES = 'amazon-devices', // Amazon devices
 }
 
 interface AltCategory {

@@ -1,6 +1,8 @@
 import { Store, Category } from '../stores'
+import { amazonDevicesStores } from './_amazon-devices'
 
 export const stores: Store[] = [
+  ...amazonDevicesStores,
   {
     title: 'leslibraires.ca',
     url: 'https://www.leslibraires.ca/recherche/?t=&a=&e=&c=&i=%1$s&f=&ip=',

@@ -121,4 +121,4 @@ const setStyle = (startNode: HTMLElement | null) => {
   buyNow.classList.remove('a-button-oneclick')
 }
 
-main()
+main().catch(err => console.error('Amazon Alternatives', err))

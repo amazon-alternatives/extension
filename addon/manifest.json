@@ -4,7 +4,7 @@
   "short_name": "amazon_alts",
   "description": "Find a book or something else in Amazon, et fetch it elswehere !",
   "homepage_url": "https://github.com/amazon-alternatives/extension",
-  "version": "1.10.2",
+  "version": "1.10.3",
   "author": "Adrian Tombu <adrian@otso.fr>",
   "icons": {
     "48": "assets/icon-48.png",

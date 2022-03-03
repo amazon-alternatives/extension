@@ -4,6 +4,48 @@ exports[`getCountryStores returns American stores 1`] = `
 Array [
   Object {
     "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
+  Object {
+    "categories": Array [
       "english-books",
       "stripbooks",
       "books",
@@ -202,6 +244,48 @@ exports[`getCountryStores returns Canadian stores 1`] = `
 Array [
   Object {
     "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
+  Object {
+    "categories": Array [
       "english-books",
       "stripbooks",
       "books",
@@ -238,6 +322,48 @@ Array [
 
 exports[`getCountryStores returns French stores 1`] = `
 Array [
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
   Object {
     "categories": Array [
       "automotive",
@@ -732,6 +858,48 @@ exports[`getCountryStores returns German stores 1`] = `
 Array [
   Object {
     "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
+  Object {
+    "categories": Array [
       "books-intl-de",
       "books-catalog",
     ],
@@ -895,6 +1063,48 @@ exports[`getCountryStores returns Italian stores 1`] = `
 Array [
   Object {
     "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
+  Object {
+    "categories": Array [
       "digital-text",
     ],
     "title": "feedbooks.com",
@@ -917,6 +1127,48 @@ exports[`getCountryStores returns Spanian stores 1`] = `
 Array [
   Object {
     "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
+  Object {
+    "categories": Array [
       "digital-text",
     ],
     "title": "feedbooks.com",
@@ -937,6 +1189,48 @@ Array [
 
 exports[`getCountryStores returns UK stores 1`] = `
 Array [
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
   Object {
     "categories": Array [
       "english-books",
@@ -1037,6 +1331,48 @@ Array [
 
 exports[`getCountryStores with empty host returns default stores 1`] = `
 Array [
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
   Object {
     "categories": Array [
       "automotive",
@@ -1529,6 +1865,48 @@ Array [
 
 exports[`getCountryStores with inexsting tld returns default stores 1`] = `
 Array [
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "apple.com",
+    "url": "https://www.apple.com/store",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "google.com",
+    "url": "https://store.google.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "nvidia.com",
+    "url": "https://www.nvidia.com/en-us/shield/",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "roku.com",
+    "url": "https://www.roku.com",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "kobo.com",
+    "url": "https://us.kobobooks.com/collections/ereaders",
+  },
+  Object {
+    "categories": Array [
+      "amazon-devices",
+    ],
+    "title": "boox.com",
+    "url": "https://shop.boox.com/collections/eink-tablet",
+  },
   Object {
     "categories": Array [
       "automotive",

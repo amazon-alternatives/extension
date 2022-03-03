@@ -1,6 +1,8 @@
 import { Category, Store } from '../stores'
+import { amazonDevicesStores } from './_amazon-devices'
 
 export const stores: Store[] = [
+  ...amazonDevicesStores,
   {
     title: 'fnac.com',
     url: 'https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s',

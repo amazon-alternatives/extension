@@ -1,6 +1,8 @@
 import { Store, Category } from '../stores'
+import { amazonDevicesStores } from './_amazon-devices'
 
 export const stores: Store[] = [
+  ...amazonDevicesStores,
   {
     title: 'feedbooks.com',
     url: 'http://www.feedbooks.com/search?lang=es&query=%1$s',
