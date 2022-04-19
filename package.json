@@ -1,5 +1,5 @@
 {
-  "description": "Find a book or something else in Amazon, et fetch it elswehere !",
+  "description": "Find a book or something else in Amazon, et fetch it elswehere!",
   "author": "Adrian Tombu <adrian@otso.fr> (https://otso.fr)",
   "license": "GPL-3.0-or-later",
   "repository": "https://github.com/amazon-alternatives/extension",
