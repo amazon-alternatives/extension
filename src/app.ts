@@ -109,11 +109,7 @@ const getStartNode = (): HTMLElement | null => {
   return startNode
 }
 
-const setStyle = (startNode: HTMLElement | null) => {
-  if (!startNode) {
-    return
-  }
-
+const setStyle = (startNode: HTMLElement) => {
   const buyButton = startNode?.parentNode?.parentNode as HTMLElement
   buyButton.classList.remove('a-button-primary', 'a-button-oneclick')
 
