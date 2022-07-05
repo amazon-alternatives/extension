@@ -47,7 +47,7 @@ describe('e2e testing', () => {
   test('dropdown alternatives should exist on product page', async () => {
     const urls = [
       'https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W',
-      'https://www.amazon.fr/dp/B08NXSQ11L',
+      'https://www.amazon.fr/Dell-i5-10210U-Ordinateur-Portable-Graphics/dp/B091M8Q5LR',
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
       'https://www.amazon.de/Becoming-English-Michelle-Obama/dp/1524763136/',
       'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
