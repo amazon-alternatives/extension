@@ -1,4 +1,4 @@
-# Amazon Alternatives [![Buy me a tree](https://img.shields.io/badge/Buy%20me%20a%20tree-%F0%9F%8C%B3-lightgreen)](https://ecologi.com/adrian)
+# Amazon Alternatives
 
 This is a browser extension to help you buy stuff you found in Amazon, but in other stores (like a real-life bookstore or an online Amazon alternative).
 
