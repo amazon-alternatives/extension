@@ -1,4 +1,4 @@
-import { Store, Category } from '../stores'
+import { Category, Store } from '../stores'
 import { amazonDevicesStores } from './_amazon-devices'
 
 export const stores: Store[] = [
@@ -64,5 +64,17 @@ export const stores: Store[] = [
     title: 'ethicalbooksearch.com',
     url: 'https://www.ethicalbooksearch.com/uk?source=amazon-alternatives-extension&query=%1$s',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS, Category.DIGITAL_TEXT],
+  },
+  {
+    title: 'ethicalsuperstore.com',
+    url: 'https://www.ethicalsuperstore.com/search/?search=%1$s',
+    categories: [
+      Category.BABY,
+      Category.BEAUTY,
+      Category.KITCHEN,
+      Category.FASHION,
+      Category.GROCERY,
+      Category.HANDMADE,
+    ],
   },
 ]

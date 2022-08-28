@@ -73,7 +73,7 @@ export const altCategories: AltCategory = {
   office_product: Category.OFFICE_PRODUCTS,
   pc: Category.COMPUTERS,
   pc_accessory: Category.ELECTRONICS,
-  photo: Category.ELECTRONICS,
+  photo: Category.PHOTO,
   pet_products: Category.PETS,
   sdp_misc: Category.KITCHEN,
   shoes: Category.SHOES,
@@ -152,8 +152,10 @@ export const enum Category {
   SPORTS = 'sports', // Sports et Loisirs
   DIGITAL_MUSIC = 'digital-music', // Téléchargement de musique
   CLOTHING = 'clothing', // Vêtements et accessoires
+  APPAREL = 'apparel', // Vêtements et accessoires
   APPLE_DEVICES = 'apple-devices', // Apple
   AMAZON_DEVICES = 'amazon-devices', // Amazon devices
+  PHOTO = 'photo', // Camera & photo
 }
 
 interface AltCategory {

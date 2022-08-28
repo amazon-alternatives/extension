@@ -53,6 +53,9 @@ export const stores: Store[] = [
       Category.LUGGAGE,
       Category.WATCHES,
       Category.GARDEN,
+      Category.PHOTO,
+      Category.APPAREL,
+      Category.CLOTHING,
     ],
   },
   {
@@ -79,6 +82,9 @@ export const stores: Store[] = [
       Category.OFFICE_PRODUCTS,
       Category.GROCERY,
       Category.GARDEN,
+      Category.PHOTO,
+      Category.APPAREL,
+      Category.CLOTHING,
     ],
   },
   {
@@ -104,6 +110,9 @@ export const stores: Store[] = [
       Category.TOYS,
       Category.OFFICE_PRODUCTS,
       Category.GARDEN,
+      Category.PHOTO,
+      Category.APPAREL,
+      Category.CLOTHING,
     ],
   },
   {
@@ -129,6 +138,9 @@ export const stores: Store[] = [
       Category.TOYS,
       Category.OFFICE_PRODUCTS,
       Category.GARDEN,
+      Category.PHOTO,
+      Category.APPAREL,
+      Category.CLOTHING,
     ],
   },
   {
@@ -154,6 +166,9 @@ export const stores: Store[] = [
       Category.TOYS,
       Category.OFFICE_PRODUCTS,
       Category.GARDEN,
+      Category.PHOTO,
+      Category.APPAREL,
+      Category.CLOTHING,
     ],
   },
   {
@@ -179,6 +194,9 @@ export const stores: Store[] = [
       Category.TOYS,
       Category.OFFICE_PRODUCTS,
       Category.GARDEN,
+      Category.PHOTO,
+      Category.APPAREL,
+      Category.CLOTHING,
     ],
   },
 ]
