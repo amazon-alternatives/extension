@@ -131,6 +131,7 @@ export const enum Category {
   ELECTRONICS = 'electronics', // High-Tech
   HPC = 'hpc', // Hygiène et Santé
   COMPUTERS = 'computers', // Informatique
+  PC = 'pc', // Computers & Tablets
   MI = 'mi', // Instruments de musique &amp; Sono
   GARDEN = 'garden', // Jardin
   TOYS = 'toys', // Jeux et Jouets
