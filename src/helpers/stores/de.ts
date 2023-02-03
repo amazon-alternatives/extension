@@ -1,4 +1,4 @@
-import { Store, Category } from '../stores'
+import { Category, Store } from '../stores'
 import { amazonDevicesStores } from './_amazon-devices'
 
 export const stores: Store[] = [
@@ -89,7 +89,9 @@ export const stores: Store[] = [
       Category.CLASSICAL,
       Category.ELECTRONICS,
       Category.COMPUTERS,
+      Category.PC,
       Category.APPLIANCES,
+      Category.APPLE_DEVICES,
     ],
   },
   {
@@ -104,13 +106,15 @@ export const stores: Store[] = [
       Category.CLASSICAL,
       Category.ELECTRONICS,
       Category.COMPUTERS,
+      Category.PC,
       Category.APPLIANCES,
+      Category.APPLE_DEVICES,
     ],
   },
   {
     title: 'Thomann',
     url: 'https://www.thomann.de/intl/search_dir.html?sw=%1$s',
-    categories: [Category.CLASSICAL, Category.COMPUTERS, Category.ELECTRONICS, Category.MI],
+    categories: [Category.CLASSICAL, Category.COMPUTERS, Category.PC, Category.ELECTRONICS, Category.MI],
   },
   {
     title: 'Notebooksbilliger',
@@ -134,7 +138,26 @@ export const stores: Store[] = [
       Category.CLASSICAL,
       Category.ELECTRONICS,
       Category.COMPUTERS,
+      Category.PC,
       Category.APPLIANCES,
+      Category.APPLE_DEVICES,
+    ],
+  },
+  {
+    title: 'Conrad',
+    url: 'https://www.conrad.de/de/search.html?search=%1$s',
+    categories: [
+      Category.ENGLISH_BOOKS,
+      Category.STRIPBOOKS,
+      Category.BOOKS,
+      Category.DIGITAL_TEXT,
+      Category.DVD,
+      Category.CLASSICAL,
+      Category.ELECTRONICS,
+      Category.COMPUTERS,
+      Category.PC,
+      Category.APPLIANCES,
+      Category.APPLE_DEVICES,
     ],
   },
 ]
