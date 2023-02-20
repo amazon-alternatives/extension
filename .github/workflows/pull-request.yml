@@ -30,3 +30,8 @@ jobs:
 
       - name: Test
         run: xvfb-run -a yarn test
+
+      - name: 'Qodana Scan'
+        uses: JetBrains/qodana-action@main
+        env:
+          QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}
