@@ -1,4 +1,4 @@
-import puppeteer from 'puppeteer'
+import * as puppeteer from 'puppeteer'
 import path from 'path'
 
 jest.setTimeout(60000)
@@ -49,7 +49,7 @@ describe('e2e testing', () => {
       'https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W',
       'https://www.amazon.fr/STRIX-G15-G513RS-HQ004W-Portable-9-6900H-Windows-Clavier/dp/B09QST7DYG/',
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
-      'https://www.amazon.de/Becoming-English-Michelle-Obama/dp/1524763136/',
+      'https://www.amazon.de/-/en/Michelle-Obama/dp/0593303741/',
       'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
     ]
 

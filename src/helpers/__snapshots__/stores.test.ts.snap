@@ -1,51 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getCountryStores returns American stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -53,8 +53,8 @@ Array [
     "title": "betterworldbooks.com",
     "url": "https://www.betterworldbooks.com/search/results?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -62,22 +62,22 @@ Array [
     "title": "bookshop.org",
     "url": "https://bookshop.org/books?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/us/en/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -86,8 +86,8 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/us?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "computers",
       "apple-devices",
@@ -95,8 +95,8 @@ Array [
     "title": "ebuyer.com",
     "url": "https://www.ebuyer.com/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "computers",
       "apple-devices",
@@ -120,8 +120,8 @@ Array [
     "title": "newegg.com",
     "url": "https://www.newegg.com/p/pl?d=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -149,8 +149,8 @@ Array [
     "title": "walmart.com",
     "url": "https://www.walmart.com/search/?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -177,8 +177,8 @@ Array [
     "title": "rakuten.com",
     "url": "https://www.rakuten.com/search/all.htm?query=&position=submit&type=suggest&store_name=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -205,8 +205,8 @@ Array [
     "title": "target.com",
     "url": "https://www.target.com/s?searchTerm=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -233,8 +233,8 @@ Array [
     "title": "macys.com",
     "url": "https://www.macys.com/shop/featured/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -265,51 +265,51 @@ Array [
 `;
 
 exports[`getCountryStores returns Canadian stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -317,22 +317,22 @@ Array [
     "title": "leslibraires.ca",
     "url": "https://www.leslibraires.ca/recherche/?t=&a=&e=&c=&i=%1$s&f=&ip=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/ca/en/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "https://www.feedbooks.com/search?lang=en&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -341,8 +341,8 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/ca?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -370,8 +370,8 @@ Array [
     "title": "bestbuy.ca",
     "url": "https://www.bestbuy.ca/en-ca/search?search=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "computers",
       "pc",
@@ -396,8 +396,8 @@ Array [
     "title": "newegg.ca",
     "url": "https://www.newegg.ca/p/pl?d=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "computers",
       "pc",
@@ -415,51 +415,51 @@ Array [
 `;
 
 exports[`getCountryStores returns French stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "apple-devices",
@@ -478,8 +478,8 @@ Array [
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -487,8 +487,8 @@ Array [
     "title": "ldlc.com",
     "url": "https://www.ldlc.com/recherche/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -496,8 +496,8 @@ Array [
     "title": "materiel.net",
     "url": "https://www.materiel.net/recherche/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -505,8 +505,8 @@ Array [
     "title": "topachat.com",
     "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -516,8 +516,8 @@ Array [
     "title": "boulanger.com",
     "url": "https://www.boulanger.com/resultats?tr=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -527,8 +527,8 @@ Array [
     "title": "but.fr",
     "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -536,8 +536,8 @@ Array [
     "title": "backmarket.fr",
     "url": "https://www.backmarket.fr/search/?q=%1$s&ga_search=%1$s#?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -560,8 +560,8 @@ Array [
     "title": "cdiscount.com",
     "url": "https://www.cdiscount.com/search/10/%1$s.html",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -584,8 +584,8 @@ Array [
     "title": "rueducommerce.fr",
     "url": "https://www.rueducommerce.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -608,8 +608,8 @@ Array [
     "title": "rakuten.com",
     "url": "https://fr.shopping.rakuten.com/s/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -621,8 +621,8 @@ Array [
     "title": "culture.leclerc",
     "url": "https://www.culture.leclerc/pageRecherche?q=%1$s&univers=al",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -630,8 +630,8 @@ Array [
     "title": "placedeslibraires.fr",
     "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -639,8 +639,8 @@ Array [
     "title": "lalibrairie.com",
     "url": "https://www.lalibrairie.com/livres/xxx_0-0000000_%1$s.html",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -648,8 +648,8 @@ Array [
     "title": "leslibraires.fr",
     "url": "https://www.leslibraires.fr/livre/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -657,8 +657,8 @@ Array [
     "title": "quaideslivres.fr",
     "url": "https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -666,8 +666,8 @@ Array [
     "title": "recyclivre.com",
     "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -675,8 +675,8 @@ Array [
     "title": "librairiesindependantes.com",
     "url": "https://www.librairiesindependantes.com/product/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -684,8 +684,8 @@ Array [
     "title": "chapitre.com",
     "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -693,16 +693,16 @@ Array [
     "title": "livrenpoche.com",
     "url": "https://www.livrenpoche.com/a/achat/search?type=product&q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "books",
       "stripbooks",
     ],
     "title": "bdfugue.com",
     "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -711,43 +711,43 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/fr/fr/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "emaginaire.com",
     "url": "https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "7switch.com",
     "url": "https://www.7switch.com/fr/list/search/page/1/revelance?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "numilog.com",
     "url": "https://www.numilog.com/Pages/Recherche/ResultatRecherche.aspx?mode=brSimple&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -756,8 +756,8 @@ Array [
     "title": "zalando.fr",
     "url": "https://www.zalando.fr/catalogue/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -766,8 +766,8 @@ Array [
     "title": "asos.fr",
     "url": "https://www.asos.com/fr/search/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -776,8 +776,8 @@ Array [
     "title": "spartoo.com",
     "url": "https://www.spartoo.com/search.php?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -798,110 +798,110 @@ Array [
     "title": "laredoute.fr",
     "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=%1$s&virtualsite=100#srt=noSorting",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "toys",
     ],
     "title": "philibertnet.com",
     "url": "https://www.philibertnet.com/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "toys",
     ],
     "title": "magicbazar.fr",
     "url": "https://www.magicbazar.fr/recherche/result.php?s=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "cobra.fr",
     "url": "https://www.cobra.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "son-video.com",
     "url": "https://www.son-video.com/recherche?termes=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "woodbrass.com",
     "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "manomano.fr",
     "url": "https://www.manomano.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "leroymerlin.fr",
     "url": "https://www.leroymerlin.fr/v3/search/search.do?keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricodepot.fr",
     "url": "https://www.bricodepot.fr/catalogue/search/node?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "mr-bricolage.fr",
     "url": "https://www.mr-bricolage.fr/Montauban/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "castorama.fr",
     "url": "https://www.castorama.fr/search?Ntt=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricorama.fr",
     "url": "https://www.bricorama.fr/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricomarche.fr",
     "url": "https://www.bricomarche.com/search?text=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "garden",
       "pets",
     ],
     "title": "oogarden.com",
     "url": "https://www.oogarden.com/Product/Search?Keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -909,8 +909,8 @@ Array [
     "title": "santediscount.com",
     "url": "https://www.santediscount.com/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -918,8 +918,8 @@ Array [
     "title": "lasante.net",
     "url": "https://lasante.net/recherche-%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -927,8 +927,8 @@ Array [
     "title": "1001pharmacies.com",
     "url": "https://www.1001pharmacies.com/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -936,8 +936,8 @@ Array [
     "title": "pharma-gdd.com",
     "url": "https://www.pharma-gdd.com/fr/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -949,89 +949,89 @@ Array [
 `;
 
 exports[`getCountryStores returns German stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "books-intl-de",
       "books-catalog",
     ],
     "title": "genialokal.de",
     "url": "https://www.genialokal.de/Suche/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "books-intl-de",
       "books-catalog",
     ],
     "title": "buchhandel.de",
     "url": "https://www.buchhandel.de/suche/ergebnisse?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "books-intl-de",
       "books-catalog",
     ],
     "title": "buchkatalog.at",
     "url": "https://shop.buchkatalog.at/servlet/SearchDisplay?catalogId=10002&searchTerm=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/de/de/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=de&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1042,8 +1042,8 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/de?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1055,8 +1055,8 @@ Array [
     "title": "Thalia",
     "url": "https://www.thalia.de/suche?sq=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1067,8 +1067,8 @@ Array [
     "title": "Weltbild",
     "url": "https://www.weltbild.de/suche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1079,8 +1079,8 @@ Array [
     "title": "Hugendubel",
     "url": "https://www.hugendubel.de/de/quickSearch?searchString=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1096,8 +1096,8 @@ Array [
     "title": "Mediamarkt",
     "url": "https://www.mediamarkt.de/de/search.html?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1113,8 +1113,8 @@ Array [
     "title": "Saturn",
     "url": "https://www.saturn.de/de/search.html?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "classical",
       "computers",
       "pc",
@@ -1124,24 +1124,24 @@ Array [
     "title": "Thomann",
     "url": "https://www.thomann.de/intl/search_dir.html?sw=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "computers",
     ],
     "title": "Notebooksbilliger",
     "url": "https://www.notebooksbilliger.de/produkte/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "computers",
     ],
     "title": "Cyberport",
     "url": "https://www.cyberport.de/tools/search-results.html?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1157,8 +1157,8 @@ Array [
     "title": "Expert",
     "url": "https://www.expert.de/suche?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1178,58 +1178,58 @@ Array [
 `;
 
 exports[`getCountryStores returns Italian stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=it&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1242,58 +1242,58 @@ Array [
 `;
 
 exports[`getCountryStores returns Spanian stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=es&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1306,51 +1306,51 @@ Array [
 `;
 
 exports[`getCountryStores returns UK stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1361,8 +1361,8 @@ Array [
     "title": "hive.co.uk",
     "url": "https://www.hive.co.uk/Search/Keyword?keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1370,22 +1370,22 @@ Array [
     "title": "worldofbooks.com",
     "url": "https://www.worldofbooks.com/en-gb/books/xxx/xxx/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "dvd",
     ],
     "title": "worldofbooks.com",
     "url": "https://www.worldofbooks.com/en-gb/category/all?pt=dvd&search=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "videogames",
     ],
     "title": "worldofbooks.com",
     "url": "https://www.worldofbooks.com/en-gb/category/all?pt=video_game&search=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1393,8 +1393,8 @@ Array [
     "title": "wordery.com",
     "url": "https://wordery.com/search?term=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1402,8 +1402,8 @@ Array [
     "title": "booksetc.co.uk",
     "url": "https://www.booksetc.co.uk/books/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1411,8 +1411,8 @@ Array [
     "title": "foyles.co.uk",
     "url": "https://www.foyles.co.uk/all?term=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1420,22 +1420,22 @@ Array [
     "title": "uk.bookshop.org",
     "url": "https://uk.bookshop.org/books?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/gb/en/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "https://www.feedbooks.com/search?lang=en&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1444,8 +1444,8 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/uk?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "baby",
       "beauty",
       "kitchen",
@@ -1460,51 +1460,51 @@ Array [
 `;
 
 exports[`getCountryStores with empty host returns default stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "apple-devices",
@@ -1523,8 +1523,8 @@ Array [
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -1532,8 +1532,8 @@ Array [
     "title": "ldlc.com",
     "url": "https://www.ldlc.com/recherche/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -1541,8 +1541,8 @@ Array [
     "title": "materiel.net",
     "url": "https://www.materiel.net/recherche/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -1550,8 +1550,8 @@ Array [
     "title": "topachat.com",
     "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -1561,8 +1561,8 @@ Array [
     "title": "boulanger.com",
     "url": "https://www.boulanger.com/resultats?tr=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -1572,8 +1572,8 @@ Array [
     "title": "but.fr",
     "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -1581,8 +1581,8 @@ Array [
     "title": "backmarket.fr",
     "url": "https://www.backmarket.fr/search/?q=%1$s&ga_search=%1$s#?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -1605,8 +1605,8 @@ Array [
     "title": "cdiscount.com",
     "url": "https://www.cdiscount.com/search/10/%1$s.html",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -1629,8 +1629,8 @@ Array [
     "title": "rueducommerce.fr",
     "url": "https://www.rueducommerce.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -1653,8 +1653,8 @@ Array [
     "title": "rakuten.com",
     "url": "https://fr.shopping.rakuten.com/s/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1666,8 +1666,8 @@ Array [
     "title": "culture.leclerc",
     "url": "https://www.culture.leclerc/pageRecherche?q=%1$s&univers=al",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1675,8 +1675,8 @@ Array [
     "title": "placedeslibraires.fr",
     "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1684,8 +1684,8 @@ Array [
     "title": "lalibrairie.com",
     "url": "https://www.lalibrairie.com/livres/xxx_0-0000000_%1$s.html",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1693,8 +1693,8 @@ Array [
     "title": "leslibraires.fr",
     "url": "https://www.leslibraires.fr/livre/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1702,8 +1702,8 @@ Array [
     "title": "quaideslivres.fr",
     "url": "https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1711,8 +1711,8 @@ Array [
     "title": "recyclivre.com",
     "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1720,8 +1720,8 @@ Array [
     "title": "librairiesindependantes.com",
     "url": "https://www.librairiesindependantes.com/product/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1729,8 +1729,8 @@ Array [
     "title": "chapitre.com",
     "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1738,16 +1738,16 @@ Array [
     "title": "livrenpoche.com",
     "url": "https://www.livrenpoche.com/a/achat/search?type=product&q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "books",
       "stripbooks",
     ],
     "title": "bdfugue.com",
     "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -1756,43 +1756,43 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/fr/fr/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "emaginaire.com",
     "url": "https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "7switch.com",
     "url": "https://www.7switch.com/fr/list/search/page/1/revelance?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "numilog.com",
     "url": "https://www.numilog.com/Pages/Recherche/ResultatRecherche.aspx?mode=brSimple&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -1801,8 +1801,8 @@ Array [
     "title": "zalando.fr",
     "url": "https://www.zalando.fr/catalogue/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -1811,8 +1811,8 @@ Array [
     "title": "asos.fr",
     "url": "https://www.asos.com/fr/search/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -1821,8 +1821,8 @@ Array [
     "title": "spartoo.com",
     "url": "https://www.spartoo.com/search.php?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -1843,110 +1843,110 @@ Array [
     "title": "laredoute.fr",
     "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=%1$s&virtualsite=100#srt=noSorting",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "toys",
     ],
     "title": "philibertnet.com",
     "url": "https://www.philibertnet.com/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "toys",
     ],
     "title": "magicbazar.fr",
     "url": "https://www.magicbazar.fr/recherche/result.php?s=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "cobra.fr",
     "url": "https://www.cobra.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "son-video.com",
     "url": "https://www.son-video.com/recherche?termes=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "woodbrass.com",
     "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "manomano.fr",
     "url": "https://www.manomano.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "leroymerlin.fr",
     "url": "https://www.leroymerlin.fr/v3/search/search.do?keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricodepot.fr",
     "url": "https://www.bricodepot.fr/catalogue/search/node?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "mr-bricolage.fr",
     "url": "https://www.mr-bricolage.fr/Montauban/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "castorama.fr",
     "url": "https://www.castorama.fr/search?Ntt=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricorama.fr",
     "url": "https://www.bricorama.fr/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricomarche.fr",
     "url": "https://www.bricomarche.com/search?text=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "garden",
       "pets",
     ],
     "title": "oogarden.com",
     "url": "https://www.oogarden.com/Product/Search?Keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -1954,8 +1954,8 @@ Array [
     "title": "santediscount.com",
     "url": "https://www.santediscount.com/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -1963,8 +1963,8 @@ Array [
     "title": "lasante.net",
     "url": "https://lasante.net/recherche-%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -1972,8 +1972,8 @@ Array [
     "title": "1001pharmacies.com",
     "url": "https://www.1001pharmacies.com/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -1981,8 +1981,8 @@ Array [
     "title": "pharma-gdd.com",
     "url": "https://www.pharma-gdd.com/fr/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -1994,51 +1994,51 @@ Array [
 `;
 
 exports[`getCountryStores with inexsting tld returns default stores 1`] = `
-Array [
-  Object {
-    "categories": Array [
+[
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "apple.com",
     "url": "https://www.apple.com/store",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "google.com",
     "url": "https://store.google.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "nvidia.com",
     "url": "https://www.nvidia.com/en-us/shield/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "roku.com",
     "url": "https://www.roku.com",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "kobo.com",
     "url": "https://us.kobobooks.com/collections/ereaders",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "amazon-devices",
     ],
     "title": "boox.com",
     "url": "https://shop.boox.com/collections/eink-tablet",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "apple-devices",
@@ -2057,8 +2057,8 @@ Array [
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -2066,8 +2066,8 @@ Array [
     "title": "ldlc.com",
     "url": "https://www.ldlc.com/recherche/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -2075,8 +2075,8 @@ Array [
     "title": "materiel.net",
     "url": "https://www.materiel.net/recherche/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -2084,8 +2084,8 @@ Array [
     "title": "topachat.com",
     "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -2095,8 +2095,8 @@ Array [
     "title": "boulanger.com",
     "url": "https://www.boulanger.com/resultats?tr=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -2106,8 +2106,8 @@ Array [
     "title": "but.fr",
     "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "apple-devices",
       "computers",
@@ -2115,8 +2115,8 @@ Array [
     "title": "backmarket.fr",
     "url": "https://www.backmarket.fr/search/?q=%1$s&ga_search=%1$s#?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -2139,8 +2139,8 @@ Array [
     "title": "cdiscount.com",
     "url": "https://www.cdiscount.com/search/10/%1$s.html",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -2163,8 +2163,8 @@ Array [
     "title": "rueducommerce.fr",
     "url": "https://www.rueducommerce.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "automotive",
       "electronics",
       "computers",
@@ -2187,8 +2187,8 @@ Array [
     "title": "rakuten.com",
     "url": "https://fr.shopping.rakuten.com/s/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2200,8 +2200,8 @@ Array [
     "title": "culture.leclerc",
     "url": "https://www.culture.leclerc/pageRecherche?q=%1$s&univers=al",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2209,8 +2209,8 @@ Array [
     "title": "placedeslibraires.fr",
     "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2218,8 +2218,8 @@ Array [
     "title": "lalibrairie.com",
     "url": "https://www.lalibrairie.com/livres/xxx_0-0000000_%1$s.html",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2227,8 +2227,8 @@ Array [
     "title": "leslibraires.fr",
     "url": "https://www.leslibraires.fr/livre/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2236,8 +2236,8 @@ Array [
     "title": "quaideslivres.fr",
     "url": "https://quaideslivres.fr/catalogsearch/advanced/result/?isbn=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2245,8 +2245,8 @@ Array [
     "title": "recyclivre.com",
     "url": "https://www.recyclivre.com/shop/recherche?orderby=price&orderway=asc&s=%1$s&submit_search=",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2254,8 +2254,8 @@ Array [
     "title": "librairiesindependantes.com",
     "url": "https://www.librairiesindependantes.com/product/%1$s/",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2263,8 +2263,8 @@ Array [
     "title": "chapitre.com",
     "url": "https://www.chapitre.com/search/Default.aspx?quicksearch=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2272,16 +2272,16 @@ Array [
     "title": "livrenpoche.com",
     "url": "https://www.livrenpoche.com/a/achat/search?type=product&q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "books",
       "stripbooks",
     ],
     "title": "bdfugue.com",
     "url": "https://www.bdfugue.com/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "english-books",
       "stripbooks",
       "books",
@@ -2290,43 +2290,43 @@ Array [
     "title": "ethicalbooksearch.com",
     "url": "https://www.ethicalbooksearch.com/fr?source=amazon-alternatives-extension&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "kobo.com",
     "url": "https://www.kobo.com/fr/fr/search?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "emaginaire.com",
     "url": "https://www.emaginaire.com/listeliv.php?form_recherche_avancee=ok&getbase=ebook&base=ebook&titre=%1$s&titre1=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "7switch.com",
     "url": "https://www.7switch.com/fr/list/search/page/1/revelance?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "feedbooks.com",
     "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "digital-text",
     ],
     "title": "numilog.com",
     "url": "https://www.numilog.com/Pages/Recherche/ResultatRecherche.aspx?mode=brSimple&query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -2335,8 +2335,8 @@ Array [
     "title": "zalando.fr",
     "url": "https://www.zalando.fr/catalogue/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -2345,8 +2345,8 @@ Array [
     "title": "asos.fr",
     "url": "https://www.asos.com/fr/search/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -2355,8 +2355,8 @@ Array [
     "title": "spartoo.com",
     "url": "https://www.spartoo.com/search.php?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "shoes",
       "fashion",
       "watches",
@@ -2377,110 +2377,110 @@ Array [
     "title": "laredoute.fr",
     "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=%1$s&virtualsite=100#srt=noSorting",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "toys",
     ],
     "title": "philibertnet.com",
     "url": "https://www.philibertnet.com/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "toys",
     ],
     "title": "magicbazar.fr",
     "url": "https://www.magicbazar.fr/recherche/result.php?s=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "cobra.fr",
     "url": "https://www.cobra.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "son-video.com",
     "url": "https://www.son-video.com/recherche?termes=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "electronics",
       "mi",
     ],
     "title": "woodbrass.com",
     "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "manomano.fr",
     "url": "https://www.manomano.fr/recherche/%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "leroymerlin.fr",
     "url": "https://www.leroymerlin.fr/v3/search/search.do?keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricodepot.fr",
     "url": "https://www.bricodepot.fr/catalogue/search/node?query=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "mr-bricolage.fr",
     "url": "https://www.mr-bricolage.fr/Montauban/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "castorama.fr",
     "url": "https://www.castorama.fr/search?Ntt=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricorama.fr",
     "url": "https://www.bricorama.fr/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hi",
       "garden",
     ],
     "title": "bricomarche.fr",
     "url": "https://www.bricomarche.com/search?text=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "garden",
       "pets",
     ],
     "title": "oogarden.com",
     "url": "https://www.oogarden.com/Product/Search?Keyword=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -2488,8 +2488,8 @@ Array [
     "title": "santediscount.com",
     "url": "https://www.santediscount.com/catalogsearch/result/?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -2497,8 +2497,8 @@ Array [
     "title": "lasante.net",
     "url": "https://lasante.net/recherche-%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -2506,8 +2506,8 @@ Array [
     "title": "1001pharmacies.com",
     "url": "https://www.1001pharmacies.com/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -2515,8 +2515,8 @@ Array [
     "title": "pharma-gdd.com",
     "url": "https://www.pharma-gdd.com/fr/search?q=%1$s",
   },
-  Object {
-    "categories": Array [
+  {
+    "categories": [
       "hpc",
       "beauty",
       "baby",
@@ -2528,8 +2528,8 @@ Array [
 `;
 
 exports[`getStores returns a default value when no stores where found 1`] = `
-Array [
-  Object {
+[
+  {
     "title": "Aucune alternative trouvée, cliquez pour envoyer un mail au développeur.",
     "url": "mailto:Adrian%20Tombu%3Ccontact%40otso.fr%3E?subject=Amazon%20Alternatives%20-%20Missing%20category&body=%0A%20%20%20%20%20%20%3Cb%3EProduct%20url%3A%3C%2Fb%3E%20%3Ca%20href%3D%22%22%3E%3C%2Fa%3E%0A%20%20%20%20%20%20%3Cb%3EHost%3A%3C%2Fb%3E%20www.amazon.fr%0A%20%20%20%20%20%20%3Cb%3ECategory%20detected%3A%3C%2Fb%3E%20404_CATEGORY%0A%20%20%20%20%20%20%3Cb%3ESearch%20values%3A%3C%2Fb%3E%20Some%20random%20product%0A%20%20%20%20",
   },
@@ -2537,60 +2537,60 @@ Array [
 `;
 
 exports[`getStores returns a formatted list of stores 1`] = `
-Array [
-  Object {
+[
+  {
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "ldlc.com",
     "url": "https://www.ldlc.com/recherche/Dell%20XPS%2013/",
   },
-  Object {
+  {
     "title": "materiel.net",
     "url": "https://www.materiel.net/recherche/Dell%20XPS%2013/",
   },
-  Object {
+  {
     "title": "topachat.com",
     "url": "https://www.topachat.com/pages/recherche.php?cat=accueil&etou=0&mc=Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "boulanger.com",
     "url": "https://www.boulanger.com/resultats?tr=Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "but.fr",
     "url": "https://www.but.fr/Common/Search/SearchProductsList?KeyWords=Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "backmarket.fr",
     "url": "https://www.backmarket.fr/search/?q=Dell%20XPS%2013&ga_search=Dell%20XPS%2013#?q=Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "cdiscount.com",
     "url": "https://www.cdiscount.com/search/10/Dell%20XPS%2013.html",
   },
-  Object {
+  {
     "title": "rueducommerce.fr",
     "url": "https://www.rueducommerce.fr/recherche/Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "rakuten.com",
     "url": "https://fr.shopping.rakuten.com/s/Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "laredoute.fr",
     "url": "https://www.laredoute.fr/psrch/psrch.aspx?kwrd=Dell%20XPS%2013&virtualsite=100#srt=noSorting",
   },
-  Object {
+  {
     "title": "cobra.fr",
     "url": "https://www.cobra.fr/recherche/Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "son-video.com",
     "url": "https://www.son-video.com/recherche?termes=Dell%20XPS%2013",
   },
-  Object {
+  {
     "title": "woodbrass.com",
     "url": "https://www.woodbrass.com/advanced_search_result.php?keywords=Dell%20XPS%2013",
   },
