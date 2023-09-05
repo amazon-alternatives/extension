@@ -45,11 +45,12 @@ describe('e2e testing', () => {
   })
 
   test('dropdown alternatives should exist on product page', async () => {
+    const cookies_button = '#sp-cc-accept'
     const urls = [
       'https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W',
       'https://www.amazon.fr/STRIX-G15-G513RS-HQ004W-Portable-9-6900H-Windows-Clavier/dp/B09QST7DYG/',
       'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
-      'https://www.amazon.de/-/en/Michelle-Obama/dp/0593303741/',
+      'https://www.amazon.de/-/en/Michelle-Obama/dp/0241531810',
       'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
     ]
 
@@ -61,6 +62,15 @@ describe('e2e testing', () => {
     for (const url of urls) {
       console.log(`testing ${url}`)
       await page.goto(url, { waitUntil: 'networkidle2' })
+
+      if (await page.$(cookies_button)) {
+        await page.click(cookies_button)
+      }
+
+      if (await page.$('#captchacharacters')) {
+        console.log('captcha detected, skipping...')
+        continue
+      }
 
       const buyButton = await page.$(buyButtonSelector)
       expect(buyButton).not.toBe(null)
