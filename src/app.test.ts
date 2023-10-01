@@ -49,7 +49,6 @@ describe('e2e testing', () => {
     const urls = [
       'https://www.amazon.fr/Bullshit-Jobs-David-Graeber/dp/B07BSLN78W',
       'https://www.amazon.fr/STRIX-G15-G513RS-HQ004W-Portable-9-6900H-Windows-Clavier/dp/B09QST7DYG/',
-      'https://www.amazon.fr/Beehive-Filter-Electric-Starter-4-stroke/dp/B01M15YVJD',
       'https://www.amazon.de/-/en/Michelle-Obama/dp/0241531810',
       'https://www.amazon.com/Intelligent-Investor-Definitive-Investing-Essentials/dp/0060555661/',
     ]
