@@ -7,7 +7,7 @@ This is a browser extension to help you buy stuff you found in Amazon, but in ot
 ### Features
 
 - Shows a list of alternative stores
-- Multi-langage
+- Multi-language
 - Multi-country
 - Typescript-based, no external library
 - Universal compatibility for all major browsers (except Safari) in a single codebase : Chrome, Firefox, Edge, Opera, Brave and Vivaldi
