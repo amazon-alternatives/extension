@@ -1,5 +1,5 @@
 node_modules/
 addon.zip
 addon/app.js
-addon/background.js
+addon/manifest.json
 coverage/
