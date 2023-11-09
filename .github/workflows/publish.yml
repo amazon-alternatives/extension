@@ -35,10 +35,13 @@ jobs:
         run: xvfb-run -a yarn test
 
       - name: Deploy
-        run: yarn publish:all
         env:
           CHROME_CLIENT_ID: ${{ secrets.CHROME_CLIENT_ID }}
           CHROME_CLIENT_SECRET: ${{ secrets.CHROME_CLIENT_SECRET }}
           CHROME_REFRESH_TOKEN: ${{ secrets.CHROME_REFRESH_TOKEN }}
           FIREFOX_API_KEY: ${{ secrets.FIREFOX_API_KEY }}
           FIREFOX_API_SECRET: ${{ secrets.FIREFOX_API_SECRET }}
+        run: |
+          yarn build
+          yarn manifest:chrome && yarn publish:chrome
+          yarn manifest:firefox && yarn publish:firefox

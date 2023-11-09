@@ -11,9 +11,10 @@
     "test": "jest",
     "test:update": "jest --updateSnapshot",
     "build": "webpack --config webpack.config.js --mode production",
+    "manifest:chrome": "cp manifest-v3.json addon/manifest.json",
+    "manifest:firefox": "cp manifest-v2.json addon/manifest.json",
     "publish:chrome": "chrome-webstore-upload upload --auto-publish --extension-id hcjifkchlbbpcpmdbimipoidnljabnai --source ./addon --client-id $CHROME_CLIENT_ID --client-secret $CHROME_CLIENT_SECRET --refresh-token $CHROME_REFRESH_TOKEN",
     "publish:firefox": "cd addon && web-ext sign --api-key $FIREFOX_API_KEY --api-secret $FIREFOX_API_SECRET || exit 0",
-    "publish:all": "yarn publish:chrome && yarn publish:firefox",
     "prepare": "husky install"
   },
   "dependencies": {
