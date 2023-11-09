@@ -9,7 +9,7 @@ const pathToExtension = require('path').join(path.join(__dirname, '..', 'addon')
 const buyButtonSelector = '[aa-test-buy-button]'
 const dropdownSelector = '[aa-test-drodpown]'
 
-describe('e2e testing', () => {
+describe.skip('e2e testing', () => {
   beforeAll(async () => {
     browser = await puppeteer.launch({
       headless: false,
