@@ -20,7 +20,7 @@ export const stores: Store[] = [
   },
   {
     title: 'feedbooks.com',
-    url: 'http://www.feedbooks.com/search?lang=en&query=%1$s',
+    url: 'https://www.feedbooks.com/search?lang=en&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
   {
@@ -198,5 +198,30 @@ export const stores: Store[] = [
       Category.APPAREL,
       Category.CLOTHING,
     ],
+  },
+  {
+    title: 'qobuz.com',
+    url: 'https://www.qobuz.com/us-en/search?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
+  },
+  {
+    title: 'beatport.com',
+    url: 'https://www.beatport.com/search?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
+  },
+  {
+    title: '7digital.com',
+    url: 'https://us.7digital.com/search?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
+  },
+  {
+    title: 'hdtracks.com',
+    url: 'https://www.hdtracks.com/#/search?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
+  },
+  {
+    title: 'bleep.com',
+    url: 'https://bleep.com/search/query?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
   },
 ]

@@ -74,7 +74,7 @@ exports[`getCountryStores returns American stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=en&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=en&query=%1$s",
   },
   {
     "categories": [
@@ -260,6 +260,46 @@ exports[`getCountryStores returns American stores 1`] = `
     ],
     "title": "bestbuy.com",
     "url": "https://www.bestbuy.com/site/searchpage.jsp?st=%1$s&_dyncharset=UTF-8&_dynSessConf=&id=pcat17071&type=page&sc=Global&cp=1&nrp=&sp=&qp=&list=n&af=true&iht=y&usc=All+Categories&ks=960&keys=keys",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "qobuz.com",
+    "url": "https://www.qobuz.com/us-en/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "beatport.com",
+    "url": "https://www.beatport.com/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "7digital.com",
+    "url": "https://us.7digital.com/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "hdtracks.com",
+    "url": "https://www.hdtracks.com/#/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "bleep.com",
+    "url": "https://bleep.com/search/query?q=%1$s",
   },
 ]
 `;
@@ -474,6 +514,10 @@ exports[`getCountryStores returns French stores 1`] = `
       "hi",
       "toys",
       "office-products",
+      "digital-music",
+      "digital-text",
+      "books",
+      "music",
     ],
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
@@ -628,7 +672,7 @@ exports[`getCountryStores returns French stores 1`] = `
       "books",
     ],
     "title": "placedeslibraires.fr",
-    "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
+    "url": "https://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
   },
   {
     "categories": [
@@ -737,7 +781,7 @@ exports[`getCountryStores returns French stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=fr&query=%1$s",
   },
   {
     "categories": [
@@ -945,6 +989,22 @@ exports[`getCountryStores returns French stores 1`] = `
     "title": "doctipharma.fr",
     "url": "https://www.doctipharma.fr/fr/search?q=%1$s",
   },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "qobuz.com",
+    "url": "https://www.qobuz.com/fr-fr/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "7digital.com",
+    "url": "https://fr.7digital.com/search?q=%1$s",
+  },
 ]
 `;
 
@@ -1028,7 +1088,7 @@ exports[`getCountryStores returns German stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=de&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=de&query=%1$s",
   },
   {
     "categories": [
@@ -1226,7 +1286,7 @@ exports[`getCountryStores returns Italian stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=it&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=it&query=%1$s",
   },
   {
     "categories": [
@@ -1290,7 +1350,7 @@ exports[`getCountryStores returns Spanian stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=es&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=es&query=%1$s",
   },
   {
     "categories": [
@@ -1519,6 +1579,10 @@ exports[`getCountryStores with empty host returns default stores 1`] = `
       "hi",
       "toys",
       "office-products",
+      "digital-music",
+      "digital-text",
+      "books",
+      "music",
     ],
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
@@ -1673,7 +1737,7 @@ exports[`getCountryStores with empty host returns default stores 1`] = `
       "books",
     ],
     "title": "placedeslibraires.fr",
-    "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
+    "url": "https://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
   },
   {
     "categories": [
@@ -1782,7 +1846,7 @@ exports[`getCountryStores with empty host returns default stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=fr&query=%1$s",
   },
   {
     "categories": [
@@ -1989,6 +2053,22 @@ exports[`getCountryStores with empty host returns default stores 1`] = `
     ],
     "title": "doctipharma.fr",
     "url": "https://www.doctipharma.fr/fr/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "qobuz.com",
+    "url": "https://www.qobuz.com/fr-fr/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "7digital.com",
+    "url": "https://fr.7digital.com/search?q=%1$s",
   },
 ]
 `;
@@ -2053,6 +2133,10 @@ exports[`getCountryStores with inexsting tld returns default stores 1`] = `
       "hi",
       "toys",
       "office-products",
+      "digital-music",
+      "digital-text",
+      "books",
+      "music",
     ],
     "title": "fnac.com",
     "url": "https://www.fnac.com/SearchResult/ResultList.aspx?Search=%1$s",
@@ -2207,7 +2291,7 @@ exports[`getCountryStores with inexsting tld returns default stores 1`] = `
       "books",
     ],
     "title": "placedeslibraires.fr",
-    "url": "http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
+    "url": "https://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=",
   },
   {
     "categories": [
@@ -2316,7 +2400,7 @@ exports[`getCountryStores with inexsting tld returns default stores 1`] = `
       "digital-text",
     ],
     "title": "feedbooks.com",
-    "url": "http://www.feedbooks.com/search?lang=fr&query=%1$s",
+    "url": "https://www.feedbooks.com/search?lang=fr&query=%1$s",
   },
   {
     "categories": [
@@ -2523,6 +2607,22 @@ exports[`getCountryStores with inexsting tld returns default stores 1`] = `
     ],
     "title": "doctipharma.fr",
     "url": "https://www.doctipharma.fr/fr/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "qobuz.com",
+    "url": "https://www.qobuz.com/fr-fr/search?q=%1$s",
+  },
+  {
+    "categories": [
+      "digital-music",
+      "music",
+    ],
+    "title": "7digital.com",
+    "url": "https://fr.7digital.com/search?q=%1$s",
   },
 ]
 `;

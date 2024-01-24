@@ -5,7 +5,7 @@ export const stores: Store[] = [
   ...amazonDevicesStores,
   {
     title: 'feedbooks.com',
-    url: 'http://www.feedbooks.com/search?lang=it&query=%1$s',
+    url: 'https://www.feedbooks.com/search?lang=it&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
   {

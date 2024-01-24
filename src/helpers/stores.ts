@@ -157,6 +157,7 @@ export const enum Category {
   APPLE_DEVICES = 'apple-devices', // Apple
   AMAZON_DEVICES = 'amazon-devices', // Amazon devices
   PHOTO = 'photo', // Camera & photo
+  MUSIC = 'music',
 }
 
 interface AltCategory {

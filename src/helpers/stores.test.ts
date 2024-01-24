@@ -30,7 +30,7 @@ test('getCountryStores returns French stores', () => {
   const stores = getCountryStores('www.amazon.fr')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(54)
+  expect(stores.length).toBe(56)
   checkObjectKeys(stores)
 })
 
@@ -38,7 +38,7 @@ test('getCountryStores returns American stores', () => {
   const stores = getCountryStores('www.amazon.com')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(18)
+  expect(stores.length).toBe(23)
   checkObjectKeys(stores)
 })
 
@@ -86,14 +86,14 @@ test('getCountryStores with inexsting tld returns default stores', () => {
   const stores = getCountryStores('www.amazon.xyz')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(54)
+  expect(stores.length).toBe(56)
   checkObjectKeys(stores)
 })
 test('getCountryStores with empty host returns default stores', () => {
   const stores = getCountryStores('')
 
   expect(stores).toMatchSnapshot()
-  expect(stores.length).toBe(54)
+  expect(stores.length).toBe(56)
   checkObjectKeys(stores)
 })
 

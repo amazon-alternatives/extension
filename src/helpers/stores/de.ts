@@ -25,7 +25,7 @@ export const stores: Store[] = [
   },
   {
     title: 'feedbooks.com',
-    url: 'http://www.feedbooks.com/search?lang=de&query=%1$s',
+    url: 'https://www.feedbooks.com/search?lang=de&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
   {

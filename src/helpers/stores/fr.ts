@@ -21,6 +21,10 @@ export const stores: Store[] = [
       Category.DIY,
       Category.TOYS,
       Category.OFFICE_PRODUCTS,
+      Category.DIGITAL_MUSIC,
+      Category.DIGITAL_TEXT,
+      Category.BOOKS,
+      Category.MUSIC,
     ],
   },
   {
@@ -152,7 +156,7 @@ export const stores: Store[] = [
   },
   {
     title: 'placedeslibraires.fr',
-    url: 'http://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=',
+    url: 'https://www.placedeslibraires.fr/dlivre.php?gencod=%1$s&rid=',
     categories: [Category.ENGLISH_BOOKS, Category.STRIPBOOKS, Category.BOOKS],
   },
   {
@@ -217,7 +221,7 @@ export const stores: Store[] = [
   },
   {
     title: 'feedbooks.com',
-    url: 'http://www.feedbooks.com/search?lang=fr&query=%1$s',
+    url: 'https://www.feedbooks.com/search?lang=fr&query=%1$s',
     categories: [Category.DIGITAL_TEXT],
   },
   {
@@ -351,5 +355,15 @@ export const stores: Store[] = [
     title: 'doctipharma.fr',
     url: 'https://www.doctipharma.fr/fr/search?q=%1$s',
     categories: [Category.HPC, Category.BEAUTY, Category.BABY],
+  },
+  {
+    title: 'qobuz.com',
+    url: 'https://www.qobuz.com/fr-fr/search?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
+  },
+  {
+    title: '7digital.com',
+    url: 'https://fr.7digital.com/search?q=%1$s',
+    categories: [Category.DIGITAL_MUSIC, Category.MUSIC],
   },
 ]
