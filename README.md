@@ -1,5 +1,12 @@
 # Amazon Alternatives
 
+> [!IMPORTANT]  
+> This repository has been archived beceause I don't have the time nor the resources to fully achieve what I wanted for this project. It's getting mentally hard to let it slowly die while seeing people complain it's not working as it should.
+> 
+> Doing what I have in mind would require months of full time work and over the 7 years I've maintained this project the total net income I've received is 0€.
+> 
+> I'm glad I could work so many years on this project, but it's now time to pull the plug. Thanks to the power of opensource, the GPL3 licenses allows anyone to fork it and work on an alternative.
+
 This is a browser extension to help you buy stuff you found in Amazon, but in other stores (like a real-life bookstore or an online Amazon alternative).
 
 ![The addon in action](/buy-a-book.gif)
